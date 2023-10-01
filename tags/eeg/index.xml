@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>EEG on Trần Đại Dương</title>
+    <link>http://example.org/tags/eeg/</link>
+    <description>Recent content in EEG on Trần Đại Dương</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>vi</language>
+    <managingEditor>dduongtrandai@gmail.com (Trần Đại Dương)</managingEditor>
+    <webMaster>dduongtrandai@gmail.com (Trần Đại Dương)</webMaster>
+    <copyright>©2023, All Rights Reserved</copyright>
+    
+        <atom:link href="http://example.org/tags/eeg/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Posts</title>
+        <link>http://example.org/posts/</link>
+        <pubDate>Fri, 20 Dec 2019 12:00:06 +0900</pubDate>
+        <author>dduongtrandai@gmail.com (Trần Đại Dương)</author>
+        
+        <guid>http://example.org/posts/</guid>
+        <description></description>
+        
+        <dc:creator>dduongtranai</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>EEG</category>
+            
+          
+        
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

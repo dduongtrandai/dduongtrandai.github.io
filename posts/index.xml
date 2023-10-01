@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Posts on Trần Đại Dương</title>
+    <link>http://example.org/posts/</link>
+    <description>Recent content in Posts on Trần Đại Dương</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>vi</language>
+    <managingEditor>dduongtrandai@gmail.com (Trần Đại Dương)</managingEditor>
+    <webMaster>dduongtrandai@gmail.com (Trần Đại Dương)</webMaster>
+    <copyright>©2023, All Rights Reserved</copyright>
+    <lastBuildDate>Fri, 20 Dec 2019 12:00:06 +0900</lastBuildDate>
+    
+        <atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Event-Related Potentials (ERPs)</title>
+        <link>http://example.org/posts/event-related-potentials-erps/</link>
+        <pubDate>Fri, 20 Dec 2019 12:00:06 +0900</pubDate>
+        <author>dduongtrandai@gmail.com (Trần Đại Dương)</author>
+        <atom:modified>Fri, 20 Dec 2019 12:00:06 +0900</atom:modified>
+        <guid>http://example.org/posts/event-related-potentials-erps/</guid>
+        <description>Written with [StackEdiĐiện áp liên quan đến sự kiện (ERP) là một loại biện pháp đặc biệt có nguồn gốc từ dữ liệu EEG. Điện não đồ là một thước đo liên tục của hoạt động điện của não. Mặt khác, ERP là các phân đoạn ngắn của dữ liệu EEG được khóa theo thời gian cho các sự kiện cụ thể được quan tâm thử nghiệm và thường được tính trung bình trong nhiều thử nghiệm của một thí nghiệm.</description>
+        
+        <dc:creator>dduongtrandai</dc:creator>
+        <media:content url="http://example.orgimages/feature1/markdown.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>markdown</category>
+            
+          
+            
+              <category>css</category>
+            
+          
+            
+              <category>html</category>
+            
+          
+            
+              <category>themes</category>
+            
+          
+        
+        
+          
+            
+              <category>themes</category>
+            
+          
+            
+              <category>syntax</category>
+            
+          
+        
+        
+          
+            
+              <category>Themes Guide</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>
