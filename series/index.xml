@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Series on Trần Đại Dương</title>
-    <link>http://example.org/series/</link>
+    <link>http://dduongtrandai.github.io/series/</link>
     <description>Recent content in Series on Trần Đại Dương</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>vi</language>
@@ -16,17 +16,17 @@
     <copyright>©2023, All Rights Reserved</copyright>
     <lastBuildDate>Fri, 20 Dec 2019 12:00:06 +0900</lastBuildDate>
     
-        <atom:link href="http://example.org/series/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://dduongtrandai.github.io/series/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>Themes Guide</title>
-        <link>http://example.org/series/themes-guide/</link>
+        <link>http://dduongtrandai.github.io/series/themes-guide/</link>
         <pubDate>Fri, 20 Dec 2019 12:00:06 +0900</pubDate>
         <author>dduongtrandai@gmail.com (Trần Đại Dương)</author>
         
-        <guid>http://example.org/series/themes-guide/</guid>
+        <guid>http://dduongtrandai.github.io/series/themes-guide/</guid>
         <description></description>
         
         <dc:creator>Trần Đại Dương</dc:creator>

@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>EEG on Trần Đại Dương</title>
-    <link>http://example.org/tags/eeg/</link>
+    <link>http://dduongtrandai.github.io/tags/eeg/</link>
     <description>Recent content in EEG on Trần Đại Dương</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>vi</language>
@@ -15,17 +15,17 @@
     <webMaster>dduongtrandai@gmail.com (Trần Đại Dương)</webMaster>
     <copyright>©2023, All Rights Reserved</copyright>
     
-        <atom:link href="http://example.org/tags/eeg/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://dduongtrandai.github.io/tags/eeg/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>Posts</title>
-        <link>http://example.org/posts/</link>
+        <link>http://dduongtrandai.github.io/posts/</link>
         <pubDate>Fri, 20 Dec 2019 12:00:06 +0900</pubDate>
         <author>dduongtrandai@gmail.com (Trần Đại Dương)</author>
         
-        <guid>http://example.org/posts/</guid>
+        <guid>http://dduongtrandai.github.io/posts/</guid>
         <description></description>
         
         <dc:creator>dduongtranai</dc:creator>

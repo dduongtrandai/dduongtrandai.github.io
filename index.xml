@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Trần Đại Dương</title>
-    <link>http://example.org/</link>
+    <link>http://dduongtrandai.github.io/</link>
     <description>Recent content on Trần Đại Dương</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>vi</language>
@@ -16,7 +16,7 @@
     <copyright>©2023, All Rights Reserved</copyright>
     <lastBuildDate>Fri, 20 Dec 2019 12:00:06 +0900</lastBuildDate>
     
-        <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://dduongtrandai.github.io/index.xml" rel="self" type="application/rss+xml" />
     
       
       
@@ -43,15 +43,79 @@
       
       <item>
         <title>Event-Related Potentials (ERPs)</title>
-        <link>http://example.org/posts/event-related-potentials-erps/</link>
+        <link>http://dduongtrandai.github.io/posts/event-related-potentials-erps-copy/</link>
         <pubDate>Fri, 20 Dec 2019 12:00:06 +0900</pubDate>
         <author>dduongtrandai@gmail.com (Trần Đại Dương)</author>
         <atom:modified>Fri, 20 Dec 2019 12:00:06 +0900</atom:modified>
-        <guid>http://example.org/posts/event-related-potentials-erps/</guid>
-        <description>Written with [StackEdiĐiện áp liên quan đến sự kiện (ERP) là một loại biện pháp đặc biệt có nguồn gốc từ dữ liệu EEG. Điện não đồ là một thước đo liên tục của hoạt động điện của não. Mặt khác, ERP là các phân đoạn ngắn của dữ liệu EEG được khóa theo thời gian cho các sự kiện cụ thể được quan tâm thử nghiệm và thường được tính trung bình trong nhiều thử nghiệm của một thí nghiệm.</description>
+        <guid>http://dduongtrandai.github.io/posts/event-related-potentials-erps-copy/</guid>
+        <description>Tran Dai Duong
+Tran Dai Duong
+Tran Dai Duong
+Tran Dai Duong
+Tran Dai Duong
+Tran Dai Duong
+Written with [StackEdiĐiện áp liên quan đến sự kiện (ERP) là một loại biện pháp đặc biệt có nguồn gốc từ dữ liệu EEG. Điện não đồ là một thước đo liên tục của hoạt động điện của não. Mặt khác, ERP là các phân đoạn ngắn của dữ liệu EEG được khóa theo thời gian cho các sự kiện cụ thể được quan tâm thử nghiệm và thường được tính trung bình trong nhiều thử nghiệm của một thí nghiệm.</description>
         
         <dc:creator>dduongtrandai</dc:creator>
-        <media:content url="http://example.orgimages/feature1/markdown.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="http://dduongtrandai.github.ioimages/feature1/markdown.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>markdown</category>
+            
+          
+            
+              <category>css</category>
+            
+          
+            
+              <category>html</category>
+            
+          
+            
+              <category>themes</category>
+            
+          
+        
+        
+          
+            
+              <category>themes</category>
+            
+          
+            
+              <category>syntax</category>
+            
+          
+        
+        
+          
+            
+              <category>Themes Guide</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Event-Related Potentials (ERPs)</title>
+        <link>http://dduongtrandai.github.io/posts/event-related-potentials-erps/</link>
+        <pubDate>Fri, 20 Dec 2019 12:00:06 +0900</pubDate>
+        <author>dduongtrandai@gmail.com (Trần Đại Dương)</author>
+        <atom:modified>Fri, 20 Dec 2019 12:00:06 +0900</atom:modified>
+        <guid>http://dduongtrandai.github.io/posts/event-related-potentials-erps/</guid>
+        <description>Tran Dai Duong
+Tran Dai Duong
+Tran Dai Duong
+Tran Dai Duong
+Tran Dai Duong
+Tran Dai Duong
+Written with [StackEdiĐiện áp liên quan đến sự kiện (ERP) là một loại biện pháp đặc biệt có nguồn gốc từ dữ liệu EEG. Điện não đồ là một thước đo liên tục của hoạt động điện của não. Mặt khác, ERP là các phân đoạn ngắn của dữ liệu EEG được khóa theo thời gian cho các sự kiện cụ thể được quan tâm thử nghiệm và thường được tính trung bình trong nhiều thử nghiệm của một thí nghiệm.</description>
+        
+        <dc:creator>dduongtrandai</dc:creator>
+        <media:content url="http://dduongtrandai.github.ioimages/feature1/markdown.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

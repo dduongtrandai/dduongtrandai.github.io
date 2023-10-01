@@ -2,47 +2,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>http://dduongtrandai.github.io/categories/</loc>
     <lastmod>2019-12-20T12:00:06+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/css/</loc>
+    <loc>http://dduongtrandai.github.io/tags/css/</loc>
     <lastmod>2019-12-20T12:00:06+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/event-related-potentials-erps/</loc>
+    <loc>http://dduongtrandai.github.io/posts/event-related-potentials-erps-copy/</loc>
     <lastmod>2019-12-20T12:00:06+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/html/</loc>
+    <loc>http://dduongtrandai.github.io/posts/event-related-potentials-erps/</loc>
     <lastmod>2019-12-20T12:00:06+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/markdown/</loc>
+    <loc>http://dduongtrandai.github.io/tags/html/</loc>
     <lastmod>2019-12-20T12:00:06+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/</loc>
+    <loc>http://dduongtrandai.github.io/tags/markdown/</loc>
     <lastmod>2019-12-20T12:00:06+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/series/</loc>
+    <loc>http://dduongtrandai.github.io/posts/</loc>
     <lastmod>2019-12-20T12:00:06+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/syntax/</loc>
+    <loc>http://dduongtrandai.github.io/series/</loc>
     <lastmod>2019-12-20T12:00:06+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>http://dduongtrandai.github.io/categories/syntax/</loc>
     <lastmod>2019-12-20T12:00:06+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/themes/</loc>
+    <loc>http://dduongtrandai.github.io/tags/</loc>
     <lastmod>2019-12-20T12:00:06+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/themes/</loc>
+    <loc>http://dduongtrandai.github.io/tags/themes/</loc>
     <lastmod>2019-12-20T12:00:06+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/series/themes-guide/</loc>
+    <loc>http://dduongtrandai.github.io/categories/themes/</loc>
     <lastmod>2019-12-20T12:00:06+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/</loc>
+    <loc>http://dduongtrandai.github.io/series/themes-guide/</loc>
     <lastmod>2019-12-20T12:00:06+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/contact/</loc>
+    <loc>http://dduongtrandai.github.io/</loc>
+    <lastmod>2019-12-20T12:00:06+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/eeg/</loc>
+    <loc>http://dduongtrandai.github.io/contact/</loc>
+  </url><url>
+    <loc>http://dduongtrandai.github.io/tags/eeg/</loc>
   </url>
 </urlset>

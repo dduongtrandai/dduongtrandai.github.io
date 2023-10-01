@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Categories on Trần Đại Dương</title>
-    <link>http://example.org/categories/</link>
+    <link>http://dduongtrandai.github.io/categories/</link>
     <description>Recent content in Categories on Trần Đại Dương</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>vi</language>
@@ -16,17 +16,17 @@
     <copyright>©2023, All Rights Reserved</copyright>
     <lastBuildDate>Fri, 20 Dec 2019 12:00:06 +0900</lastBuildDate>
     
-        <atom:link href="http://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://dduongtrandai.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>syntax</title>
-        <link>http://example.org/categories/syntax/</link>
+        <link>http://dduongtrandai.github.io/categories/syntax/</link>
         <pubDate>Fri, 20 Dec 2019 12:00:06 +0900</pubDate>
         <author>dduongtrandai@gmail.com (Trần Đại Dương)</author>
         
-        <guid>http://example.org/categories/syntax/</guid>
+        <guid>http://dduongtrandai.github.io/categories/syntax/</guid>
         <description></description>
         
         <dc:creator>Trần Đại Dương</dc:creator>
@@ -40,11 +40,11 @@
       
       <item>
         <title>themes</title>
-        <link>http://example.org/categories/themes/</link>
+        <link>http://dduongtrandai.github.io/categories/themes/</link>
         <pubDate>Fri, 20 Dec 2019 12:00:06 +0900</pubDate>
         <author>dduongtrandai@gmail.com (Trần Đại Dương)</author>
         
-        <guid>http://example.org/categories/themes/</guid>
+        <guid>http://dduongtrandai.github.io/categories/themes/</guid>
         <description></description>
         
         <dc:creator>Trần Đại Dương</dc:creator>

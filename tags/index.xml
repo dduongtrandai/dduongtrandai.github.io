@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Tags on Trần Đại Dương</title>
-    <link>http://example.org/tags/</link>
+    <link>http://dduongtrandai.github.io/tags/</link>
     <description>Recent content in Tags on Trần Đại Dương</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>vi</language>
@@ -16,17 +16,17 @@
     <copyright>©2023, All Rights Reserved</copyright>
     <lastBuildDate>Fri, 20 Dec 2019 12:00:06 +0900</lastBuildDate>
     
-        <atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://dduongtrandai.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>css</title>
-        <link>http://example.org/tags/css/</link>
+        <link>http://dduongtrandai.github.io/tags/css/</link>
         <pubDate>Fri, 20 Dec 2019 12:00:06 +0900</pubDate>
         <author>dduongtrandai@gmail.com (Trần Đại Dương)</author>
         
-        <guid>http://example.org/tags/css/</guid>
+        <guid>http://dduongtrandai.github.io/tags/css/</guid>
         <description></description>
         
         <dc:creator>Trần Đại Dương</dc:creator>
@@ -40,11 +40,11 @@
       
       <item>
         <title>html</title>
-        <link>http://example.org/tags/html/</link>
+        <link>http://dduongtrandai.github.io/tags/html/</link>
         <pubDate>Fri, 20 Dec 2019 12:00:06 +0900</pubDate>
         <author>dduongtrandai@gmail.com (Trần Đại Dương)</author>
         
-        <guid>http://example.org/tags/html/</guid>
+        <guid>http://dduongtrandai.github.io/tags/html/</guid>
         <description></description>
         
         <dc:creator>Trần Đại Dương</dc:creator>
@@ -58,11 +58,11 @@
       
       <item>
         <title>markdown</title>
-        <link>http://example.org/tags/markdown/</link>
+        <link>http://dduongtrandai.github.io/tags/markdown/</link>
         <pubDate>Fri, 20 Dec 2019 12:00:06 +0900</pubDate>
         <author>dduongtrandai@gmail.com (Trần Đại Dương)</author>
         
-        <guid>http://example.org/tags/markdown/</guid>
+        <guid>http://dduongtrandai.github.io/tags/markdown/</guid>
         <description></description>
         
         <dc:creator>Trần Đại Dương</dc:creator>
@@ -76,11 +76,11 @@
       
       <item>
         <title>themes</title>
-        <link>http://example.org/tags/themes/</link>
+        <link>http://dduongtrandai.github.io/tags/themes/</link>
         <pubDate>Fri, 20 Dec 2019 12:00:06 +0900</pubDate>
         <author>dduongtrandai@gmail.com (Trần Đại Dương)</author>
         
-        <guid>http://example.org/tags/themes/</guid>
+        <guid>http://dduongtrandai.github.io/tags/themes/</guid>
         <description></description>
         
         <dc:creator>Trần Đại Dương</dc:creator>
@@ -94,11 +94,11 @@
       
       <item>
         <title>EEG</title>
-        <link>http://example.org/tags/eeg/</link>
+        <link>http://dduongtrandai.github.io/tags/eeg/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         <author>dduongtrandai@gmail.com (Trần Đại Dương)</author>
         
-        <guid>http://example.org/tags/eeg/</guid>
+        <guid>http://dduongtrandai.github.io/tags/eeg/</guid>
         <description></description>
         
         <dc:creator>Trần Đại Dương</dc:creator>
