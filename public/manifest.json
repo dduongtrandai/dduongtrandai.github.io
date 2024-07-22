@@ -1,0 +1,15 @@
+{
+  "name": "My New Hugo Site",
+  "short_name": "My New Hugo Site",
+  "start_url": "/trandaiduong/",
+  "scope": "/trandaiduong/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/trandaiduong/favicon.svg",
+      "sizes": "512x512"
+    }
+  ]
+}
