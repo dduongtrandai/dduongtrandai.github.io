@@ -1,4 +1,4 @@
 baseURL = 'https://dduongtrandai.github.io/trandaiduong/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Tran Dai Duong Blog'
 theme = 'hugo-book'
