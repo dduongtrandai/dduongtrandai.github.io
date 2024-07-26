@@ -1,18 +1,46 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tran Dai Duong Blog</title>
-    <link>http://localhost:1313/trandaiduong/</link>
-    <description>Recent content on Tran Dai Duong Blog</description>
+    <title>Tran Dai Duong</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Tran Dai Duong</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 23 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/trandaiduong/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Fri, 26 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>EEG</title>
+      <link>http://localhost:1313/posts/eeg/</link>
+      <pubDate>Fri, 26 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/eeg/</guid>
+      <description>EEG measures summated activity&#xD;#&#xD;Neurons communicate through a combination of chemical neurotransmitters and electrical gradients, and electroencephalography, or EEG, detects those electrical gradients to provide insight into the activity of the brain. Realize, however, that any single neuron&amp;rsquo;s electrical activity is far too miniscule to be detected by scalp EEG, and thus what we see on EEG is actually a summation of many neurons&amp;rsquo; activity; in fact, we require at least 6 square centimeters of synchronized cortical activity for anything to be detected on scalp EEG.</description>
+    </item>
+    <item>
+      <title>Multinomial logistic regression</title>
+      <link>http://localhost:1313/posts/multinomial-logistic-regression/</link>
+      <pubDate>Thu, 25 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/multinomial-logistic-regression/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Motor Imagery</title>
+      <link>http://localhost:1313/posts/motor-imagery/</link>
+      <pubDate>Wed, 24 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/motor-imagery/</guid>
+      <description>What is the Motor Imagery ?&#xD;#&#xD;Motor imagery is the imagination of specific motor commands, such as left-hand, right-hand, or foot movement, which can modify neuronal activity in primary sensorimotor areas. 1&#xA;The neurophysiological basis of motor imagery&#xD;#&#xD;&amp;ldquo;Motor Imagery and Direct Brain–Computer Communication.&amp;rdquo; GERT PFURTSCHELLER, 2001.&amp;#160;&amp;#x21a9;&amp;#xfe0e;</description>
+    </item>
     <item>
       <title>Phân Tích Thành Phần Độc Lập</title>
-      <link>http://localhost:1313/trandaiduong/posts/ica/</link>
+      <link>http://localhost:1313/posts/gaussian/</link>
+      <pubDate>Wed, 24 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/gaussian/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Phân Tích Thành Phần Độc Lập</title>
+      <link>http://localhost:1313/posts/ica/</link>
       <pubDate>Tue, 23 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/trandaiduong/posts/ica/</guid>
+      <guid>http://localhost:1313/posts/ica/</guid>
       <description>Khái niệm&#xD;#&#xD;Phân tích thành phần độc lập (ICA) là một kỹ thuật thống kê và tính toán được sử dụng trong học máy để tách tín hiệu đa biến thành các thành phần không phải Gaussian độc lập của nó. Mục tiêu của ICA là tìm ra một phép biến đổi tuyến tính của dữ liệu sao cho dữ liệu được chuyển đổi càng gần độc lập về mặt thống kê càng tốt.</description>
     </item>
   </channel>

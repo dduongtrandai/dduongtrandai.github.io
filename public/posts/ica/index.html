@@ -1,27 +1,28 @@
 <!DOCTYPE html>
-<html lang="en-us" dir="ltr">
-<head><script src="/trandaiduong/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=trandaiduong/livereload" data-no-instant defer></script>
+<html lang="en" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Khái niệm#Phân tích thành phần độc lập (ICA) là một kỹ thuật thống kê và tính toán được sử dụng trong học máy để tách tín hiệu đa biến thành các thành phần không phải Gaussian độc lập của nó. Mục tiêu của ICA là tìm ra một phép biến đổi tuyến tính của dữ liệu sao cho dữ liệu được chuyển đổi càng gần độc lập về mặt thống kê càng tốt.">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
-<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/trandaiduong/posts/ica/">
-  <meta property="og:site_name" content="Tran Dai Duong Blog">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/posts/ica/">
+  <meta property="og:site_name" content="Tran Dai Duong">
   <meta property="og:title" content="Phân Tích Thành Phần Độc Lập">
   <meta property="og:description" content="Khái niệm#Phân tích thành phần độc lập (ICA) là một kỹ thuật thống kê và tính toán được sử dụng trong học máy để tách tín hiệu đa biến thành các thành phần không phải Gaussian độc lập của nó. Mục tiêu của ICA là tìm ra một phép biến đổi tuyến tính của dữ liệu sao cho dữ liệu được chuyển đổi càng gần độc lập về mặt thống kê càng tốt.">
-  <meta property="og:locale" content="en_us">
+  <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2024-07-23T00:00:00+00:00">
     <meta property="article:modified_time" content="2024-07-23T00:00:00+00:00">
-<title>Phân Tích Thành Phần Độc Lập | Tran Dai Duong Blog</title>
-<link rel="manifest" href="/trandaiduong/manifest.json">
-<link rel="icon" href="/trandaiduong/favicon.png" >
-<link rel="canonical" href="http://localhost:1313/trandaiduong/posts/ica/">
-<link rel="stylesheet" href="/trandaiduong/book.min.309b7ed028807cdb68d8d61e26d609f48369c098dbf5e4d8c0dcf4cdf49feafc.css" integrity="sha256-MJt&#43;0CiAfNto2NYeJtYJ9INpwJjb9eTYwNz0zfSf6vw=" crossorigin="anonymous">
-  <script defer src="/trandaiduong/fuse.min.js"></script>
-  <script defer src="/trandaiduong/en.search.min.231cccf391877397729216dc7f5182297238bc6432dfd5c3c0d9bae8e0d980dd.js" integrity="sha256-IxzM85GHc5dykhbcf1GCKXI4vGQy39XDwNm66ODZgN0=" crossorigin="anonymous"></script>
+<title>Phân Tích Thành Phần Độc Lập | Tran Dai Duong</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" >
+<link rel="canonical" href="http://localhost:1313/posts/ica/">
+  <link rel="alternate" hreflang="vn" href="http://localhost:1313/vn/posts/ica/" title="Phân Tích Thành Phần Độc Lập">
+<link rel="stylesheet" href="/book.min.309b7ed028807cdb68d8d61e26d609f48369c098dbf5e4d8c0dcf4cdf49feafc.css" integrity="sha256-MJt&#43;0CiAfNto2NYeJtYJ9INpwJjb9eTYwNz0zfSf6vw=" crossorigin="anonymous">
+  <script defer src="/fuse.min.js"></script>
+  <script defer src="/en.search.min.d9a99fca9e232ca285a0d1c957c29e025a4c33f1759458f3f52a430ce15c5b64.js" integrity="sha256-2amfyp4jLKKFoNHJV8KeAlpMM/F1lFjz9SpDDOFcW2Q=" crossorigin="anonymous"></script>
 
   
 
@@ -40,7 +41,7 @@ https://github.com/alex-shpak/hugo-book
         
   <nav>
 <h2 class="book-brand">
-  <a class="flex align-center" href="/trandaiduong/"><span>Tran Dai Duong Blog</span>
+  <a class="flex align-center" href="/"><span>Tran Dai Duong</span>
   </a>
 </h2>
 
@@ -52,6 +53,41 @@ https://github.com/alex-shpak/hugo-book
 </div>
 <script>document.querySelector(".book-search").classList.remove("hidden")</script>
 
+
+
+  
+
+
+
+  
+    
+  
+
+
+  
+
+
+<ul class="book-languages">
+  <li>
+    <input type="checkbox" id="languages" class="toggle" />
+    <label for="languages" class="flex justify-between">
+      <a role="button" class="flex align-center">
+        <img src="/svg/translate.svg" class="book-icon" alt="Languages" />
+        English
+      </a>
+    </label>
+
+    <ul>
+      
+      <li>
+        <a href="http://localhost:1313/vn/posts/ica/">
+          Vietnamese
+        </a>
+      </li>
+      
+    </ul>
+  </li>
+</ul>
 
 
 
@@ -80,7 +116,7 @@ https://github.com/alex-shpak/hugo-book
 <ul>
   
   <li>
-    <a href="/trandaiduong/posts/"  >
+    <a href="/posts/"  >
         Blog
       </a>
   </li>
@@ -109,14 +145,14 @@ https://github.com/alex-shpak/hugo-book
         
   <div class="flex align-center justify-between">
   <label for="menu-control">
-    <img src="/trandaiduong/svg/menu.svg" class="book-icon" alt="Menu" />
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
   <strong>Phân Tích Thành Phần Độc Lập</strong>
 
   <label for="toc-control">
     
-    <img src="/trandaiduong/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
     
   </label>
 </div>
@@ -139,7 +175,7 @@ https://github.com/alex-shpak/hugo-book
       
 <article class="markdown book-post">
   <h1>
-    <a href="/trandaiduong/posts/ica/">Phân Tích Thành Phần Độc Lập</a>
+    <a href="/posts/ica/">Phân Tích Thành Phần Độc Lập</a>
   </h1>
   
   <h5>July 23, 2024</h5>
@@ -149,7 +185,7 @@ https://github.com/alex-shpak/hugo-book
   
   <div>
     
-      <a href="/trandaiduong/categories/x%C3%A1c-su%E1%BA%A5t-th%E1%BB%91ng-k%C3%AA/">Xác Suất Thống Kê</a>
+      <a href="/categories/x%C3%A1c-su%E1%BA%A5t-th%E1%BB%91ng-k%C3%AA/">Xác Suất Thống Kê</a>
   </div>
   
 

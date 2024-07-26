@@ -1,4 +1,28 @@
-baseURL = 'https://dduongtrandai.github.io/trandaiduong/'
+# https://dduongtrandai.github.io/
+baseURL = 'https://dduongtrandai.github.io/' 
 languageCode = 'en-us'
-title = 'Tran Dai Duong Blog'
+title = 'Tran Dai Duong'
 theme = 'hugo-book'
+
+# Multi-lingual mode config
+# There are different options to translate files
+# See https://gohugo.io/content-management/multilingual/#translation-by-filename
+# And https://gohugo.io/content-management/multilingual/#translation-by-content-directory
+[languages]
+[languages.vn]
+  languageName = 'Vietnamese'
+  contentDir = 'content.vn'
+  weight = 1
+
+[languages.en]
+  languageName = 'English'
+  contentDir = 'content.en'
+  weight = 2
+
+[[module.mounts]]
+source = 'static'
+target = 'static'
+
+[[module.mounts]]
+source = 'images'
+target = 'static/images'
