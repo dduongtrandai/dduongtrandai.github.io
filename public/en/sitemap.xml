@@ -2,6 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/docs/ai/</loc>
+  </url><url>
+    <loc>http://localhost:1313/docs/ai/deep-learning/</loc>
+  </url><url>
     <loc>http://localhost:1313/posts/autocorrelation/</loc>
     <lastmod>2024-07-26T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -183,6 +187,8 @@
                 hreflang="en"
                 href="http://localhost:1313/posts/ica/"
                 />
+  </url><url>
+    <loc>http://localhost:1313/docs/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
     <xhtml:link

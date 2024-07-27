@@ -57,5 +57,12 @@
       <guid>http://localhost:1313/posts/ica/</guid>
       <description>Khái niệm&#xD;#&#xD;Phân tích thành phần độc lập (ICA) là một kỹ thuật thống kê và tính toán được sử dụng trong học máy để tách tín hiệu đa biến thành các thành phần không phải Gaussian độc lập của nó. Mục tiêu của ICA là tìm ra một phép biến đổi tuyến tính của dữ liệu sao cho dữ liệu được chuyển đổi càng gần độc lập về mặt thống kê càng tốt.</description>
     </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/ai/deep-learning/autoendcoders/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/ai/deep-learning/autoendcoders/</guid>
+      <description>Tetttttt</description>
+    </item>
   </channel>
 </rss>
