@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/vn/posts/</loc>
-    <lastmod>2024-07-25T00:00:00+00:00</lastmod>
+    <lastmod>2024-07-26T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -16,7 +16,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/vn/categories/</loc>
-    <lastmod>2024-07-25T00:00:00+00:00</lastmod>
+    <lastmod>2024-07-26T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -26,6 +26,58 @@
                 rel="alternate"
                 hreflang="vn"
                 href="http://localhost:1313/vn/categories/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/vn/categories/signal-processing/</loc>
+    <lastmod>2024-07-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/categories/signal-processing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vn"
+                href="http://localhost:1313/vn/categories/signal-processing/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/vn/posts/stationary-vs-non-stationary/</loc>
+    <lastmod>2024-07-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/posts/stationary-vs-non-stationary/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vn"
+                href="http://localhost:1313/vn/posts/stationary-vs-non-stationary/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/vn/</loc>
+    <lastmod>2024-07-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vn"
+                href="http://localhost:1313/vn/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/vn/posts/autocorrelation/</loc>
+    <lastmod>2024-07-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/posts/autocorrelation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vn"
+                href="http://localhost:1313/vn/posts/autocorrelation/"
                 />
   </url><url>
     <loc>http://localhost:1313/vn/categories/h%E1%BB%8Dc-m%C3%A1y/</loc>
@@ -52,19 +104,6 @@
                 rel="alternate"
                 hreflang="vn"
                 href="http://localhost:1313/vn/posts/multinomial-logistic-regression/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/vn/</loc>
-    <lastmod>2024-07-25T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="vn"
-                href="http://localhost:1313/vn/"
                 />
   </url><url>
     <loc>http://localhost:1313/vn/categories/eeg/</loc>

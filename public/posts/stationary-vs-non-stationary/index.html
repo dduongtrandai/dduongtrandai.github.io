@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="In signal processing, the concepts of stationary and non-stationary are used to describe the properties of a signal over time.
+Stationary Signal#A signal is called stationary if its statistical properties do not change over time. These statistical properties include mean, variance, and correlation functions. There are two types of stationarity:
+Weak Stationarity (or Wide-Sense Stationarity): The signal has a constant mean and variance over time, and the correlation function depends only on the time difference between two points, not on the specific time points themselves.">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/posts/stationary-vs-non-stationary/">
+  <meta property="og:site_name" content="Tran Dai Duong">
+  <meta property="og:title" content="Stationary vs Non-stationary">
+  <meta property="og:description" content="In signal processing, the concepts of stationary and non-stationary are used to describe the properties of a signal over time.
+Stationary Signal#A signal is called stationary if its statistical properties do not change over time. These statistical properties include mean, variance, and correlation functions. There are two types of stationarity:
+Weak Stationarity (or Wide-Sense Stationarity): The signal has a constant mean and variance over time, and the correlation function depends only on the time difference between two points, not on the specific time points themselves.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-07-26T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-07-26T00:00:00+00:00">
+<title>Stationary vs Non-stationary | Tran Dai Duong</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" >
+<link rel="canonical" href="http://localhost:1313/posts/stationary-vs-non-stationary/">
+  <link rel="alternate" hreflang="vn" href="http://localhost:1313/vn/posts/stationary-vs-non-stationary/" title="Stationary vs Non-stationary">
+<link rel="stylesheet" href="/book.min.309b7ed028807cdb68d8d61e26d609f48369c098dbf5e4d8c0dcf4cdf49feafc.css" integrity="sha256-MJt&#43;0CiAfNto2NYeJtYJ9INpwJjb9eTYwNz0zfSf6vw=" crossorigin="anonymous">
+  <script defer src="/fuse.min.js"></script>
+  <script defer src="/en.search.min.0cbd6b326c94d61a65bb23aadc3653953be59c24d894ba935b18d0d1e29beb20.js" integrity="sha256-DL1rMmyU1hpluyOq3DZTlTvlnCTYlLqTWxjQ0eKb6yA=" crossorigin="anonymous"></script>
+
+  
+
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>Tran Dai Duong</span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+  
+
+
+
+  
+    
+  
+
+
+  
+
+
+<ul class="book-languages">
+  <li>
+    <input type="checkbox" id="languages" class="toggle" />
+    <label for="languages" class="flex justify-between">
+      <a role="button" class="flex align-center">
+        <img src="/svg/translate.svg" class="book-icon" alt="Languages" />
+        English
+      </a>
+    </label>
+
+    <ul>
+      
+      <li>
+        <a href="http://localhost:1313/vn/posts/stationary-vs-non-stationary/">
+          Vietnamese
+        </a>
+      </li>
+      
+    </ul>
+  </li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="/posts/"  >
+        Blog
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Stationary vs Non-stationary</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#stationary-signal">Stationary Signal</a></li>
+    <li><a href="#non-stationary-signal">Non-Stationary Signal</a></li>
+    <li><a href="#applications-and-processing">Applications and Processing</a></li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+<article class="markdown book-post">
+  <h1>
+    <a href="/posts/stationary-vs-non-stationary/">Stationary vs Non-stationary</a>
+  </h1>
+  
+  <h5>July 26, 2024</h5>
+
+
+
+  
+  <div>
+    
+      <a href="/categories/signal-processing/">Signal Processing</a>
+  </div>
+  
+
+  
+
+
+
+<p>In signal processing, the concepts of <strong>stationary</strong> and <strong>non-stationary</strong> are used to describe the properties of a signal over time.</p>
+<h2 id="stationary-signal">
+  Stationary Signal
+  <a class="anchor" href="#stationary-signal">#</a>
+</h2>
+<p>A signal is called stationary if its statistical properties do not change over time. These statistical properties include mean, variance, and correlation functions. There are two types of stationarity:</p>
+<ol>
+<li>
+<p><strong>Weak Stationarity (or Wide-Sense Stationarity)</strong>: The signal has a constant mean and variance over time, and the correlation function depends only on the time difference between two points, not on the specific time points themselves.</p>
+</li>
+<li>
+<p><strong>Strong Stationarity (or Strict-Sense Stationarity)</strong>: All probability distributions of the signal do not change over time.</p>
+</li>
+</ol>
+<h2 id="non-stationary-signal">
+  Non-Stationary Signal
+  <a class="anchor" href="#non-stationary-signal">#</a>
+</h2>
+<p>A signal is called non-stationary if its statistical properties change over time. This means the mean, variance, or correlation functions of the signal change over time. Non-stationary signals often appear in systems where characteristics change over time, such as audio signals, medical signals (heart rate, brain waves), and many other real-world data.</p>
+<h2 id="applications-and-processing">
+  Applications and Processing
+  <a class="anchor" href="#applications-and-processing">#</a>
+</h2>
+<ol>
+<li>
+<p><strong>Processing Stationary Signals</strong>: Methods like Fourier Transform (FT) and Fast Fourier Transform (FFT) are commonly applied because they assume the signal is stationary.</p>
+</li>
+<li>
+<p><strong>Processing Non-Stationary Signals</strong>: Time-frequency analysis methods such as Short-Time Fourier Transform (STFT), Wavelet Transform, and Empirical Mode Decomposition (EMD) are often used to analyze and process non-stationary signals.</p>
+</li>
+</ol>
+<p>Understanding the difference between stationary and non-stationary signals is crucial in choosing the appropriate signal processing methods to achieve accurate and efficient results.</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments"></div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#stationary-signal">Stationary Signal</a></li>
+    <li><a href="#non-stationary-signal">Non-Stationary Signal</a></li>
+    <li><a href="#applications-and-processing">Applications and Processing</a></li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

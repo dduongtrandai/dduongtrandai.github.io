@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="vn" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Autocorrelation là một khái niệm trong thống kê và xử lý tín hiệu dùng để đo lường mức độ tương quan của một tín hiệu với chính nó tại các khoảng thời gian trễ khác nhau. Nói cách khác, autocorrelation xác định mức độ tương tự của tín hiệu tại một thời điểm so với các thời điểm trước đó.
+Công thức#Autocorrelation của một tín hiệu ( x(t) ) tại một khoảng thời gian trễ ( \tau ) được định nghĩa như sau:">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/vn/posts/autocorrelation/">
+  <meta property="og:site_name" content="Tran Dai Duong">
+  <meta property="og:title" content="Tự Tương Quan">
+  <meta property="og:description" content="Autocorrelation là một khái niệm trong thống kê và xử lý tín hiệu dùng để đo lường mức độ tương quan của một tín hiệu với chính nó tại các khoảng thời gian trễ khác nhau. Nói cách khác, autocorrelation xác định mức độ tương tự của tín hiệu tại một thời điểm so với các thời điểm trước đó.
+Công thức#Autocorrelation của một tín hiệu ( x(t) ) tại một khoảng thời gian trễ ( \tau ) được định nghĩa như sau:">
+  <meta property="og:locale" content="vn">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-07-26T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-07-26T00:00:00+00:00">
+<title>Tự Tương Quan | Tran Dai Duong</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" >
+<link rel="canonical" href="http://localhost:1313/vn/posts/autocorrelation/">
+  <link rel="alternate" hreflang="en" href="http://localhost:1313/posts/autocorrelation/" title="Autocorrelation">
+<link rel="stylesheet" href="/book.min.309b7ed028807cdb68d8d61e26d609f48369c098dbf5e4d8c0dcf4cdf49feafc.css" integrity="sha256-MJt&#43;0CiAfNto2NYeJtYJ9INpwJjb9eTYwNz0zfSf6vw=" crossorigin="anonymous">
+  <script defer src="/fuse.min.js"></script>
+  <script defer src="/vn.search.min.525da582ae9db6c8a7298cb8dbf0f1b37f341b981355c4ffe8c6293094aefad8.js" integrity="sha256-Ul2lgq6dtsinKYy42/Dxs380G5gTVcT/6MYpMJSu&#43;tg=" crossorigin="anonymous"></script>
+
+  
+
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>Tran Dai Duong</span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+  
+
+
+
+  
+    
+  
+
+
+  
+
+
+<ul class="book-languages">
+  <li>
+    <input type="checkbox" id="languages" class="toggle" />
+    <label for="languages" class="flex justify-between">
+      <a role="button" class="flex align-center">
+        <img src="/svg/translate.svg" class="book-icon" alt="Languages" />
+        Vietnamese
+      </a>
+    </label>
+
+    <ul>
+      
+      <li>
+        <a href="http://localhost:1313/posts/autocorrelation/">
+          English
+        </a>
+      </li>
+      
+    </ul>
+  </li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="/vn/posts/"  >
+        Blog
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Tự Tương Quan</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#công-thức">Công thức</a></li>
+        <li><a href="#ứng-dụng">Ứng dụng</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+<article class="markdown book-post">
+  <h1>
+    <a href="/vn/posts/autocorrelation/">Tự Tương Quan</a>
+  </h1>
+  
+  <h5>July 26, 2024</h5>
+
+
+
+  
+  <div>
+    
+      <a href="/vn/categories/signal-processing/">Signal Processing</a>
+  </div>
+  
+
+  
+
+
+
+<p><strong>Autocorrelation</strong> là một khái niệm trong thống kê và xử lý tín hiệu dùng để đo lường mức độ tương quan của một tín hiệu với chính nó tại các khoảng thời gian trễ khác nhau. Nói cách khác, autocorrelation xác định mức độ tương tự của tín hiệu tại một thời điểm so với các thời điểm trước đó.</p>
+<h3 id="công-thức">
+  Công thức
+  <a class="anchor" href="#c%c3%b4ng-th%e1%bb%a9c">#</a>
+</h3>
+<p>Autocorrelation của một tín hiệu ( x(t) ) tại một khoảng thời gian trễ ( \tau ) được định nghĩa như sau:</p>
+<p>[ R(\tau) = \mathbb{E}[x(t) \cdot x(t + \tau)] ]</p>
+<p>Trong đó:</p>
+<ul>
+<li>( R(\tau) ) là hàm autocorrelation tại khoảng thời gian trễ ( \tau ).</li>
+<li>( x(t) ) là tín hiệu tại thời điểm ( t ).</li>
+<li>( x(t + \tau) ) là tín hiệu tại thời điểm ( t + \tau ).</li>
+<li>( \mathbb{E} ) là ký hiệu của kỳ vọng toán học.</li>
+</ul>
+<h3 id="ứng-dụng">
+  Ứng dụng
+  <a class="anchor" href="#%e1%bb%a9ng-d%e1%bb%a5ng">#</a>
+</h3>
+<ol>
+<li><strong>Phân tích tín hiệu</strong>: Autocorrelation được sử dụng để phân tích các đặc tính của tín hiệu, như tìm ra chu kỳ lặp lại hoặc tần số của tín hiệu.</li>
+<li><strong>Xử lý âm thanh</strong>: Trong lĩnh vực âm thanh, autocorrelation có thể giúp xác định các đặc điểm của âm thanh, như tần số cơ bản của một giọng nói.</li>
+<li><strong>Phân tích chuỗi thời gian</strong>: Autocorrelation được sử dụng trong phân tích chuỗi thời gian để xác định mức độ liên quan giữa các giá trị trong chuỗi tại các thời điểm khác nhau.</li>
+<li><strong>Lọc và phát hiện tín hiệu</strong>: Autocorrelation cũng được sử dụng trong việc lọc tín hiệu và phát hiện các mẫu tín hiệu trong nhiều lĩnh vực khác nhau, bao gồm viễn thông và radar.</li>
+</ol>
+<p>Autocorrelation là một công cụ quan trọng trong phân tích tín hiệu và thống kê, giúp hiểu rõ hơn về cấu trúc và đặc tính của dữ liệu.</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments"></div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#công-thức">Công thức</a></li>
+        <li><a href="#ứng-dụng">Ứng dụng</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

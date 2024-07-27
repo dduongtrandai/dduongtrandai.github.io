@@ -6,8 +6,22 @@
     <description>Recent content in Blog on Tran Dai Duong</description>
     <generator>Hugo</generator>
     <language>vn</language>
-    <lastBuildDate>Thu, 25 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/vn/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Stationary vs Non-stationary</title>
+      <link>http://localhost:1313/vn/posts/stationary-vs-non-stationary/</link>
+      <pubDate>Fri, 26 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/vn/posts/stationary-vs-non-stationary/</guid>
+      <description>Trong xử lý tín hiệu, khái niệm stationary (ổn định) và non-stationary (không ổn định) được sử dụng để mô tả tính chất của tín hiệu theo thời gian.&#xA;Tín hiệu ổn định (Stationary Signal)&#xD;#&#xD;Tín hiệu được gọi là ổn định khi các đặc tính thống kê của nó không thay đổi theo thời gian. Các đặc tính thống kê bao gồm trung bình, phương sai và các hàm tương quan.</description>
+    </item>
+    <item>
+      <title>Tự Tương Quan</title>
+      <link>http://localhost:1313/vn/posts/autocorrelation/</link>
+      <pubDate>Fri, 26 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/vn/posts/autocorrelation/</guid>
+      <description>Autocorrelation là một khái niệm trong thống kê và xử lý tín hiệu dùng để đo lường mức độ tương quan của một tín hiệu với chính nó tại các khoảng thời gian trễ khác nhau. Nói cách khác, autocorrelation xác định mức độ tương tự của tín hiệu tại một thời điểm so với các thời điểm trước đó.&#xA;Công thức&#xD;#&#xD;Autocorrelation của một tín hiệu ( x(t) ) tại một khoảng thời gian trễ ( \tau ) được định nghĩa như sau:</description>
+    </item>
     <item>
       <title>Multinomial logistic regression</title>
       <link>http://localhost:1313/vn/posts/multinomial-logistic-regression/</link>

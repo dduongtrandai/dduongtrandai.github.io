@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Autocorrelation is a concept in statistics and signal processing used to measure the correlation of a signal with itself at different time lags. In other words, autocorrelation determines the similarity of the signal at one time point compared to previous time points.
+Formula#The autocorrelation of a signal ( x(t) ) at a time lag ( \tau ) is defined as:
+[ R(\tau) = \mathbb{E}[x(t) \cdot x(t &#43; \tau)] ]">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/posts/autocorrelation/">
+  <meta property="og:site_name" content="Tran Dai Duong">
+  <meta property="og:title" content="Autocorrelation">
+  <meta property="og:description" content="Autocorrelation is a concept in statistics and signal processing used to measure the correlation of a signal with itself at different time lags. In other words, autocorrelation determines the similarity of the signal at one time point compared to previous time points.
+Formula#The autocorrelation of a signal ( x(t) ) at a time lag ( \tau ) is defined as:
+[ R(\tau) = \mathbb{E}[x(t) \cdot x(t &#43; \tau)] ]">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-07-26T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-07-26T00:00:00+00:00">
+<title>Autocorrelation | Tran Dai Duong</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" >
+<link rel="canonical" href="http://localhost:1313/posts/autocorrelation/">
+  <link rel="alternate" hreflang="vn" href="http://localhost:1313/vn/posts/autocorrelation/" title="Tự Tương Quan">
+<link rel="stylesheet" href="/book.min.309b7ed028807cdb68d8d61e26d609f48369c098dbf5e4d8c0dcf4cdf49feafc.css" integrity="sha256-MJt&#43;0CiAfNto2NYeJtYJ9INpwJjb9eTYwNz0zfSf6vw=" crossorigin="anonymous">
+  <script defer src="/fuse.min.js"></script>
+  <script defer src="/en.search.min.0cbd6b326c94d61a65bb23aadc3653953be59c24d894ba935b18d0d1e29beb20.js" integrity="sha256-DL1rMmyU1hpluyOq3DZTlTvlnCTYlLqTWxjQ0eKb6yA=" crossorigin="anonymous"></script>
+
+  
+
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>Tran Dai Duong</span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+  
+
+
+
+  
+    
+  
+
+
+  
+
+
+<ul class="book-languages">
+  <li>
+    <input type="checkbox" id="languages" class="toggle" />
+    <label for="languages" class="flex justify-between">
+      <a role="button" class="flex align-center">
+        <img src="/svg/translate.svg" class="book-icon" alt="Languages" />
+        English
+      </a>
+    </label>
+
+    <ul>
+      
+      <li>
+        <a href="http://localhost:1313/vn/posts/autocorrelation/">
+          Vietnamese
+        </a>
+      </li>
+      
+    </ul>
+  </li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="/posts/"  >
+        Blog
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Autocorrelation</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#formula">Formula</a></li>
+        <li><a href="#applications">Applications</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+<article class="markdown book-post">
+  <h1>
+    <a href="/posts/autocorrelation/">Autocorrelation</a>
+  </h1>
+  
+  <h5>July 26, 2024</h5>
+
+
+
+  
+  <div>
+    
+      <a href="/categories/signal-processing/">Signal Processing</a>
+  </div>
+  
+
+  
+
+
+
+<p><strong>Autocorrelation</strong> is a concept in statistics and signal processing used to measure the correlation of a signal with itself at different time lags. In other words, autocorrelation determines the similarity of the signal at one time point compared to previous time points.</p>
+<h3 id="formula">
+  Formula
+  <a class="anchor" href="#formula">#</a>
+</h3>
+<p>The autocorrelation of a signal ( x(t) ) at a time lag ( \tau ) is defined as:</p>
+<p>[ R(\tau) = \mathbb{E}[x(t) \cdot x(t + \tau)] ]</p>
+<p>Where:</p>
+<ul>
+<li>( R(\tau) ) is the autocorrelation function at time lag ( \tau ).</li>
+<li>( x(t) ) is the signal at time ( t ).</li>
+<li>( x(t + \tau) ) is the signal at time ( t + \tau ).</li>
+<li>( \mathbb{E} ) denotes the expected value.</li>
+</ul>
+<h3 id="applications">
+  Applications
+  <a class="anchor" href="#applications">#</a>
+</h3>
+<ol>
+<li><strong>Signal Analysis</strong>: Autocorrelation is used to analyze the characteristics of signals, such as finding repeating cycles or frequencies in the signal.</li>
+<li><strong>Audio Processing</strong>: In the field of audio, autocorrelation can help identify features of sounds, such as the fundamental frequency of a voice.</li>
+<li><strong>Time Series Analysis</strong>: Autocorrelation is used in time series analysis to determine the relationship between values in the series at different times.</li>
+<li><strong>Filtering and Signal Detection</strong>: Autocorrelation is also used in signal filtering and pattern detection in various fields, including telecommunications and radar.</li>
+</ol>
+<p>Autocorrelation is an important tool in signal analysis and statistics, helping to better understand the structure and characteristics of data.</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments"></div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#formula">Formula</a></li>
+        <li><a href="#applications">Applications</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
