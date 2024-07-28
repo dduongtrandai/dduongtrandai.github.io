@@ -2,10 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tran Dai Duong</title>
-    <link>http://localhost:1313/vn/docs/eeg/basics/</link>
+    <link>http://localhost:1313/vn/docs/EEG/Basics/</link>
     <description>Recent content on Tran Dai Duong</description>
     <generator>Hugo</generator>
     <language>vn</language>
-    <atom:link href="http://localhost:1313/vn/docs/eeg/basics/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/vn/docs/EEG/Basics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Điện não đồ thông thường của người trưởng thành</title>
+      <link>http://localhost:1313/vn/docs/EEG/Basics/The-normal-adult-EEG/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/vn/docs/EEG/Basics/The-normal-adult-EEG/</guid>
+      <description>Điện não đồ thông thường của người trưởng thành&#xD;#&#xD;Hiểu được các thành phần của EEG điển hình là điều cần thiết để trau dồi khả năng phân tích các phát hiện bất thường. Trong bài viết này, các dải tần số và các mẫu sóng cụ thể có trong EEG chuẩn của người trưởng thành sẽ được mô tả cho cả giai đoạn thức và ngủ.</description>
+    </item>
   </channel>
 </rss>

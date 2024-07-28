@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Học Máy on Tran Dai Duong</title>
-    <link>http://localhost:1313/vn/categories/h%E1%BB%8Dc-m%C3%A1y/</link>
+    <link>http://localhost:1313/vn/categories/H%E1%BB%8Dc-m%C3%A1y/</link>
     <description>Recent content in Học Máy on Tran Dai Duong</description>
     <generator>Hugo</generator>
     <language>vn</language>
-    <lastBuildDate>Thu, 25 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/vn/categories/h%E1%BB%8Dc-m%C3%A1y/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Jul 2024 12:04:10 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/vn/categories/H%E1%BB%8Dc-m%C3%A1y/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Multinomial logistic regression</title>
       <link>http://localhost:1313/vn/posts/multinomial-logistic-regression/</link>

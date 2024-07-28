@@ -4,27 +4,27 @@
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Autocorrelation là một khái niệm trong thống kê và xử lý tín hiệu dùng để đo lường mức độ tương quan của một tín hiệu với chính nó tại các khoảng thời gian trễ khác nhau. Nói cách khác, autocorrelation xác định mức độ tương tự của tín hiệu tại một thời điểm so với các thời điểm trước đó.
-Công thức#Autocorrelation của một tín hiệu ( x(t) ) tại một khoảng thời gian trễ ( \tau ) được định nghĩa như sau:">
+Công thức#Autocorrelation của một tín hiệu \( x(t) \) tại một khoảng thời gian trễ \( \tau \) được định nghĩa như sau:">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
-<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/vn/posts/autocorrelation/">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/vn/posts/Autocorrelation/">
   <meta property="og:site_name" content="Tran Dai Duong">
   <meta property="og:title" content="Tự Tương Quan">
   <meta property="og:description" content="Autocorrelation là một khái niệm trong thống kê và xử lý tín hiệu dùng để đo lường mức độ tương quan của một tín hiệu với chính nó tại các khoảng thời gian trễ khác nhau. Nói cách khác, autocorrelation xác định mức độ tương tự của tín hiệu tại một thời điểm so với các thời điểm trước đó.
-Công thức#Autocorrelation của một tín hiệu ( x(t) ) tại một khoảng thời gian trễ ( \tau ) được định nghĩa như sau:">
+Công thức#Autocorrelation của một tín hiệu \( x(t) \) tại một khoảng thời gian trễ \( \tau \) được định nghĩa như sau:">
   <meta property="og:locale" content="vn">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2024-07-26T00:00:00+00:00">
-    <meta property="article:modified_time" content="2024-07-26T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-07-27T09:41:31+07:00">
 <title>Tự Tương Quan | Tran Dai Duong</title>
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.png" >
-<link rel="canonical" href="http://localhost:1313/vn/posts/autocorrelation/">
-  <link rel="alternate" hreflang="en" href="http://localhost:1313/posts/autocorrelation/" title="Autocorrelation">
+<link rel="canonical" href="http://localhost:1313/vn/posts/Autocorrelation/">
+  <link rel="alternate" hreflang="en" href="http://localhost:1313/posts/Autocorrelation/" title="Autocorrelation">
 <link rel="stylesheet" href="/book.min.309b7ed028807cdb68d8d61e26d609f48369c098dbf5e4d8c0dcf4cdf49feafc.css" integrity="sha256-MJt&#43;0CiAfNto2NYeJtYJ9INpwJjb9eTYwNz0zfSf6vw=" crossorigin="anonymous">
   <script defer src="/fuse.min.js"></script>
-  <script defer src="/vn.search.min.271b3437ea6ca1a1ebccb814eeedecf59772f3d3f29509f3a2c46ed6f7f7d8ef.js" integrity="sha256-Jxs0N&#43;psoaHrzLgU7u3s9Zdy89PylQnzosRu1vf32O8=" crossorigin="anonymous"></script>
+  <script defer src="/vn.search.min.d33804e6f562d582b131f62e197d2432882677ee83def090fc243475c3a86217.js" integrity="sha256-0zgE5vVi1YKxMfYuGX0kMogmd&#43;6D3vCQ/CQ0dcOoYhc=" crossorigin="anonymous"></script>
 
   
 
@@ -32,6 +32,17 @@ Công thức#Autocorrelation của một tín hiệu ( x(t) ) tại một kho�
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
 -->
+  
+  
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+  MathJax = {
+    tex: {
+      displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+      inlineMath: [['\\(', '\\)']]                  
+    }
+  };
+</script>
   
 </head>
 <body dir="ltr">
@@ -43,7 +54,7 @@ https://github.com/alex-shpak/hugo-book
         
   <nav>
 <h2 class="book-brand">
-  <a class="flex align-center" href="/"><span>Tran Dai Duong</span>
+  <a class="flex align-center" href="/vn/"><span>Tran Dai Duong</span>
   </a>
 </h2>
 
@@ -82,7 +93,7 @@ https://github.com/alex-shpak/hugo-book
     <ul>
       
       <li>
-        <a href="http://localhost:1313/posts/autocorrelation/">
+        <a href="http://localhost:1313/posts/Autocorrelation/">
           English
         </a>
       </li>
@@ -115,7 +126,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/vn/docs/ai/" class="">AI</a>
+    <a href="/vn/docs/AI/" class="">AI</a>
   
 
           
@@ -144,13 +155,8 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/vn/docs/ai/deep-learning/autoendcoders/" class="">Autoendcoders</a>
+    <a href="/vn/docs/AI/Deep-Learning/Autoendcoder/" class="">Autoendcoder</a>
   
-
-          
-  <ul>
-    
-  </ul>
 
         </li>
       
@@ -172,7 +178,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/vn/docs/eeg/" class="">EEG</a>
+    <a href="/vn/docs/EEG/" class="">EEG</a>
   
 
           
@@ -193,6 +199,19 @@ https://github.com/alex-shpak/hugo-book
 
           
   <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/vn/docs/EEG/Basics/The-normal-adult-EEG/" class="">Điện não đồ thông thường của người trưởng thành</a>
+  
+
+        </li>
+      
     
   </ul>
 
@@ -222,6 +241,12 @@ https://github.com/alex-shpak/hugo-book
   <li>
     <a href="/vn/posts/"  >
         Blog
+      </a>
+  </li>
+  
+  <li>
+    <a href="https://github.com/dduongtrandai"  target="_blank" rel="noopener">
+        Github
       </a>
   </li>
   
@@ -288,7 +313,7 @@ https://github.com/alex-shpak/hugo-book
       
 <article class="markdown book-post">
   <h1>
-    <a href="/vn/posts/autocorrelation/">Tự Tương Quan</a>
+    <a href="/vn/posts/Autocorrelation/">Tự Tương Quan</a>
   </h1>
   
   <h5>July 26, 2024</h5>
@@ -298,7 +323,7 @@ https://github.com/alex-shpak/hugo-book
   
   <div>
     
-      <a href="/vn/categories/signal-processing/">Signal Processing</a>
+      <a href="/vn/categories/Signal-Processing/">Signal Processing</a>
   </div>
   
 
@@ -311,14 +336,14 @@ https://github.com/alex-shpak/hugo-book
   Công thức
   <a class="anchor" href="#c%c3%b4ng-th%e1%bb%a9c">#</a>
 </h3>
-<p>Autocorrelation của một tín hiệu ( x(t) ) tại một khoảng thời gian trễ ( \tau ) được định nghĩa như sau:</p>
-<p>[ R(\tau) = \mathbb{E}[x(t) \cdot x(t + \tau)] ]</p>
+<p>Autocorrelation của một tín hiệu \( x(t) \) tại một khoảng thời gian trễ \( \tau \) được định nghĩa như sau:</p>
+\[ R(\tau) = \mathbb{E}[x(t) \cdot x(t + \tau)] \]
 <p>Trong đó:</p>
 <ul>
-<li>( R(\tau) ) là hàm autocorrelation tại khoảng thời gian trễ ( \tau ).</li>
-<li>( x(t) ) là tín hiệu tại thời điểm ( t ).</li>
-<li>( x(t + \tau) ) là tín hiệu tại thời điểm ( t + \tau ).</li>
-<li>( \mathbb{E} ) là ký hiệu của kỳ vọng toán học.</li>
+<li>\( R(\tau) \) là hàm autocorrelation tại khoảng thời gian trễ \( \tau \).</li>
+<li>\( x(t) \) là tín hiệu tại thời điểm \( t \).</li>
+<li>\( x(t + \tau) \) là tín hiệu tại thời điểm \( t + \tau \).</li>
+<li>\( \mathbb{E} \) là ký hiệu của kỳ vọng toán học.</li>
 </ul>
 <h3 id="ứng-dụng">
   Ứng dụng
@@ -340,6 +365,12 @@ https://github.com/alex-shpak/hugo-book
   <div class="flex flex-wrap justify-between">
 
 
+  <div><a class="flex align-center" href="https://github.com/dduongtrandai/dduongtrandai.github.io/commit/ed8832febb8ee7babc6256e44936f7f20562048a" title='Last modified by dduongtrandai | July 27, 2024' target="_blank" rel="noopener">
+      <img src="/svg/calendar.svg" class="book-icon" alt="" />
+      <span>July 27, 2024</span>
+    </a>
+  </div>
+
 
 
 
@@ -356,9 +387,7 @@ https://github.com/alex-shpak/hugo-book
 
       
   
-  <div class="book-comments">
-
-</div>
+  <div class="book-comments"></div>
   
  
 

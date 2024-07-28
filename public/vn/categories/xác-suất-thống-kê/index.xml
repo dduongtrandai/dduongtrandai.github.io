@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Xác Suất Thống Kê on Tran Dai Duong</title>
-    <link>http://localhost:1313/vn/categories/x%C3%A1c-su%E1%BA%A5t-th%E1%BB%91ng-k%C3%AA/</link>
+    <link>http://localhost:1313/vn/categories/X%C3%A1c-su%E1%BA%A5t-th%E1%BB%91ng-k%C3%AA/</link>
     <description>Recent content in Xác Suất Thống Kê on Tran Dai Duong</description>
     <generator>Hugo</generator>
     <language>vn</language>
-    <lastBuildDate>Wed, 24 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/vn/categories/x%C3%A1c-su%E1%BA%A5t-th%E1%BB%91ng-k%C3%AA/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Jul 2024 12:04:10 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/vn/categories/X%C3%A1c-su%E1%BA%A5t-th%E1%BB%91ng-k%C3%AA/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Phân Tích Thành Phần Độc Lập</title>
-      <link>http://localhost:1313/vn/posts/gaussian/</link>
+      <link>http://localhost:1313/vn/posts/Gaussian/</link>
       <pubDate>Wed, 24 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/vn/posts/gaussian/</guid>
+      <guid>http://localhost:1313/vn/posts/Gaussian/</guid>
       <description></description>
     </item>
     <item>
       <title>Phân Tích Thành Phần Độc Lập</title>
-      <link>http://localhost:1313/vn/posts/ica/</link>
+      <link>http://localhost:1313/vn/posts/ICA/</link>
       <pubDate>Tue, 23 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/vn/posts/ica/</guid>
+      <guid>http://localhost:1313/vn/posts/ICA/</guid>
       <description>Khái niệm&#xD;#&#xD;Phân tích thành phần độc lập (ICA) là một kỹ thuật thống kê và tính toán được sử dụng trong học máy để tách tín hiệu đa biến thành các thành phần không phải Gaussian độc lập của nó. Mục tiêu của ICA là tìm ra một phép biến đổi tuyến tính của dữ liệu sao cho dữ liệu được chuyển đổi càng gần độc lập về mặt thống kê càng tốt.</description>
     </item>
   </channel>

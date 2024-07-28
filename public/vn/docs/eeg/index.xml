@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>EEG on Tran Dai Duong</title>
-    <link>http://localhost:1313/vn/docs/eeg/</link>
+    <link>http://localhost:1313/vn/docs/EEG/</link>
     <description>Recent content in EEG on Tran Dai Duong</description>
     <generator>Hugo</generator>
     <language>vn</language>
-    <atom:link href="http://localhost:1313/vn/docs/eeg/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/vn/docs/EEG/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

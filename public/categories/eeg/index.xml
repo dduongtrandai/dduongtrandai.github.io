@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>EEG on Tran Dai Duong</title>
-    <link>http://localhost:1313/categories/eeg/</link>
+    <link>http://localhost:1313/categories/EEG/</link>
     <description>Recent content in EEG on Tran Dai Duong</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 26 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/eeg/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Jul 2024 09:41:31 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/EEG/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Basic Electrophysiology</title>
-      <link>http://localhost:1313/posts/eeg/</link>
+      <link>http://localhost:1313/posts/EEG/</link>
       <pubDate>Fri, 26 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/eeg/</guid>
+      <guid>http://localhost:1313/posts/EEG/</guid>
       <description>EEG measures summated activity&#xD;#&#xD;Neurons communicate through a combination of chemical neurotransmitters and electrical gradients, and electroencephalography, or EEG, detects those electrical gradients to provide insight into the activity of the brain. Realize, however, that any single neuron&amp;rsquo;s electrical activity is far too miniscule to be detected by scalp EEG, and thus what we see on EEG is actually a summation of many neurons&amp;rsquo; activity; in fact, we require at least 6 square centimeters of synchronized cortical activity for anything to be detected on scalp EEG.</description>
     </item>
     <item>
       <title>Motor Imagery</title>
-      <link>http://localhost:1313/posts/motor-imagery/</link>
+      <link>http://localhost:1313/posts/Motor-Imagery/</link>
       <pubDate>Wed, 24 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/motor-imagery/</guid>
+      <guid>http://localhost:1313/posts/Motor-Imagery/</guid>
       <description>What is the Motor Imagery ?&#xD;#&#xD;Motor imagery is the imagination of specific motor commands, such as left-hand, right-hand, or foot movement, which can modify neuronal activity in primary sensorimotor areas. 1&#xA;The neurophysiological basis of motor imagery&#xD;#&#xD;&amp;ldquo;Motor Imagery and Direct Brain–Computer Communication.&amp;rdquo; GERT PFURTSCHELLER, 2001.&amp;#160;&amp;#x21a9;&amp;#xfe0e;</description>
     </item>
   </channel>

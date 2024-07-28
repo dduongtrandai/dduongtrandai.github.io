@@ -3,6 +3,10 @@ languageCode = 'en-us'
 title = 'Tran Dai Duong'
 theme = 'hugo-book'
 
+# Book configuration
+disablePathToLower = true
+enableGitInfo = true
+
 # Multi-lingual mode config
 # There are different options to translate files
 # See https://gohugo.io/content-management/multilingual/#translation-by-filename
@@ -25,3 +29,30 @@ target = 'static'
 [[module.mounts]]
 source = 'images'
 target = 'static/images'
+
+[menu]
+# [[menu.before]]
+[[menu.after]]
+  name = "Github"
+  url = "https://github.com/dduongtrandai"
+  weight = 10
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)']]
+
+[params]
+  # (Optional, default none) Set the path to a logo for the book.
+  # If the logo is /static/logo.png then the path would be logo.png
+  # BookLogo = 'logo.png'
+
+  # Set source repository location.
+  # Used for 'Last Modified' and 'Edit this page' links.
+  BookRepo = 'https://github.com/dduongtrandai/dduongtrandai.github.io'
+
+  math = true

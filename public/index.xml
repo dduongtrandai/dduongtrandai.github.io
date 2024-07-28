@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tran Dai Duong</title>
+    <title>Introduction on Tran Dai Duong</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on Tran Dai Duong</description>
+    <description>Recent content in Introduction on Tran Dai Duong</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 26 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jul 2024 09:55:23 +0700</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The normal adult EEG</title>
-      <link>http://localhost:1313/docs/eeg/basics/the-normal-adult-eeg/</link>
+      <link>http://localhost:1313/docs/EEG/Basics/The-normal-adult-EEG/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/eeg/basics/the-normal-adult-eeg/</guid>
+      <guid>http://localhost:1313/docs/EEG/Basics/The-normal-adult-EEG/</guid>
       <description>&#xD;The normal adult EEG&#xD;#&#xD;Understanding the components of the typical EEG is essential in order to cultivate proficiency in analyzing the atypical findings. Within the subsequent discourse, the frequency ranges and specific wave patterns present in the standard adult EEG will be delineated for both wakefulness and sleep stages&#xA;ALPHA ACTIVITY&#xD;#&#xD;</description>
     </item>
     <item>
       <title>Autocorrelation</title>
-      <link>http://localhost:1313/posts/autocorrelation/</link>
+      <link>http://localhost:1313/posts/Autocorrelation/</link>
       <pubDate>Fri, 26 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/autocorrelation/</guid>
-      <description>Autocorrelation is a concept in statistics and signal processing used to measure the correlation of a signal with itself at different time lags. In other words, autocorrelation determines the similarity of the signal at one time point compared to previous time points.&#xA;Formula&#xD;#&#xD;The autocorrelation of a signal ( x(t) ) at a time lag ( \tau ) is defined as:&#xA;[ R(\tau) = \mathbb{E}[x(t) \cdot x(t + \tau)] ]</description>
+      <guid>http://localhost:1313/posts/Autocorrelation/</guid>
+      <description>Autocorrelation is a concept in statistics and signal processing used to measure the correlation of a signal with itself at different time lags. In other words, autocorrelation determines the similarity of the signal at one time point compared to previous time points.&#xA;Formula&#xD;#&#xD;The autocorrelation of a signal \( x(t) \) at a time lag \( \tau \) is defined as:&#xA;\[ R(\tau) = \mathbb{E}[x(t) \cdot x(t + \tau)] \] Where:</description>
     </item>
     <item>
       <title>Basic Electrophysiology</title>
-      <link>http://localhost:1313/posts/eeg/</link>
+      <link>http://localhost:1313/posts/EEG/</link>
       <pubDate>Fri, 26 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/eeg/</guid>
+      <guid>http://localhost:1313/posts/EEG/</guid>
       <description>EEG measures summated activity&#xD;#&#xD;Neurons communicate through a combination of chemical neurotransmitters and electrical gradients, and electroencephalography, or EEG, detects those electrical gradients to provide insight into the activity of the brain. Realize, however, that any single neuron&amp;rsquo;s electrical activity is far too miniscule to be detected by scalp EEG, and thus what we see on EEG is actually a summation of many neurons&amp;rsquo; activity; in fact, we require at least 6 square centimeters of synchronized cortical activity for anything to be detected on scalp EEG.</description>
     </item>
     <item>
       <title>Stationary vs Non-stationary</title>
-      <link>http://localhost:1313/posts/stationary-vs-non-stationary/</link>
+      <link>http://localhost:1313/posts/Stationary-vs-Non-stationary/</link>
       <pubDate>Fri, 26 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/stationary-vs-non-stationary/</guid>
+      <guid>http://localhost:1313/posts/Stationary-vs-Non-stationary/</guid>
       <description>In signal processing, the concepts of stationary and non-stationary are used to describe the properties of a signal over time.&#xA;Stationary Signal&#xD;#&#xD;A signal is called stationary if its statistical properties do not change over time. These statistical properties include mean, variance, and correlation functions. There are two types of stationarity:&#xA;Weak Stationarity (or Wide-Sense Stationarity): The signal has a constant mean and variance over time, and the correlation function depends only on the time difference between two points, not on the specific time points themselves.</description>
     </item>
     <item>
@@ -45,24 +45,31 @@
     </item>
     <item>
       <title>Motor Imagery</title>
-      <link>http://localhost:1313/posts/motor-imagery/</link>
+      <link>http://localhost:1313/posts/Motor-Imagery/</link>
       <pubDate>Wed, 24 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/motor-imagery/</guid>
+      <guid>http://localhost:1313/posts/Motor-Imagery/</guid>
       <description>What is the Motor Imagery ?&#xD;#&#xD;Motor imagery is the imagination of specific motor commands, such as left-hand, right-hand, or foot movement, which can modify neuronal activity in primary sensorimotor areas. 1&#xA;The neurophysiological basis of motor imagery&#xD;#&#xD;&amp;ldquo;Motor Imagery and Direct Brain–Computer Communication.&amp;rdquo; GERT PFURTSCHELLER, 2001.&amp;#160;&amp;#x21a9;&amp;#xfe0e;</description>
     </item>
     <item>
       <title>Phân Tích Thành Phần Độc Lập</title>
-      <link>http://localhost:1313/posts/gaussian/</link>
+      <link>http://localhost:1313/posts/Gaussian/</link>
       <pubDate>Wed, 24 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/gaussian/</guid>
+      <guid>http://localhost:1313/posts/Gaussian/</guid>
       <description></description>
     </item>
     <item>
       <title>Phân Tích Thành Phần Độc Lập</title>
-      <link>http://localhost:1313/posts/ica/</link>
+      <link>http://localhost:1313/posts/ICA/</link>
       <pubDate>Tue, 23 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/ica/</guid>
+      <guid>http://localhost:1313/posts/ICA/</guid>
       <description>Khái niệm&#xD;#&#xD;Phân tích thành phần độc lập (ICA) là một kỹ thuật thống kê và tính toán được sử dụng trong học máy để tách tín hiệu đa biến thành các thành phần không phải Gaussian độc lập của nó. Mục tiêu của ICA là tìm ra một phép biến đổi tuyến tính của dữ liệu sao cho dữ liệu được chuyển đổi càng gần độc lập về mặt thống kê càng tốt.</description>
+    </item>
+    <item>
+      <title>Autoendcoder</title>
+      <link>http://localhost:1313/docs/AI/Deep-Learning/Autoendcoder/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/AI/Deep-Learning/Autoendcoder/</guid>
+      <description>Autoendcoder&#xD;#&#xD;At the heart of deep learning lies the neural network, an intricate interconnected system of nodes that mimics the human brain’s neural architecture. Neural networks excel at discerning intricate patterns and representations within vast datasets, allowing them to make predictions, classify information, and generate novel insights. Autoencoders emerge as a fascinating subset of neural networks, offering a unique approach to unsupervised learning. Autoencoders are an adaptable and strong class of architectures for the dynamic field of deep learning, where neural networks develop constantly to identify complicated patterns and representations.</description>
     </item>
   </channel>
 </rss>

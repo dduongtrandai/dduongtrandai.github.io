@@ -18,7 +18,7 @@
   <link rel="alternate" hreflang="en" href="http://localhost:1313/posts/" title="Blog">
 <link rel="stylesheet" href="/book.min.309b7ed028807cdb68d8d61e26d609f48369c098dbf5e4d8c0dcf4cdf49feafc.css" integrity="sha256-MJt&#43;0CiAfNto2NYeJtYJ9INpwJjb9eTYwNz0zfSf6vw=" crossorigin="anonymous">
   <script defer src="/fuse.min.js"></script>
-  <script defer src="/vn.search.min.271b3437ea6ca1a1ebccb814eeedecf59772f3d3f29509f3a2c46ed6f7f7d8ef.js" integrity="sha256-Jxs0N&#43;psoaHrzLgU7u3s9Zdy89PylQnzosRu1vf32O8=" crossorigin="anonymous"></script>
+  <script defer src="/vn.search.min.d33804e6f562d582b131f62e197d2432882677ee83def090fc243475c3a86217.js" integrity="sha256-0zgE5vVi1YKxMfYuGX0kMogmd&#43;6D3vCQ/CQ0dcOoYhc=" crossorigin="anonymous"></script>
 
   
 
@@ -27,6 +27,17 @@
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
 -->
+  
+  
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+  MathJax = {
+    tex: {
+      displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+      inlineMath: [['\\(', '\\)']]                  
+    }
+  };
+</script>
   
 </head>
 <body dir="ltr">
@@ -38,7 +49,7 @@ https://github.com/alex-shpak/hugo-book
         
   <nav>
 <h2 class="book-brand">
-  <a class="flex align-center" href="/"><span>Tran Dai Duong</span>
+  <a class="flex align-center" href="/vn/"><span>Tran Dai Duong</span>
   </a>
 </h2>
 
@@ -110,7 +121,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/vn/docs/ai/" class="">AI</a>
+    <a href="/vn/docs/AI/" class="">AI</a>
   
 
           
@@ -139,13 +150,8 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/vn/docs/ai/deep-learning/autoendcoders/" class="">Autoendcoders</a>
+    <a href="/vn/docs/AI/Deep-Learning/Autoendcoder/" class="">Autoendcoder</a>
   
-
-          
-  <ul>
-    
-  </ul>
 
         </li>
       
@@ -167,7 +173,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="/vn/docs/eeg/" class="">EEG</a>
+    <a href="/vn/docs/EEG/" class="">EEG</a>
   
 
           
@@ -188,6 +194,19 @@ https://github.com/alex-shpak/hugo-book
 
           
   <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/vn/docs/EEG/Basics/The-normal-adult-EEG/" class="">Điện não đồ thông thường của người trưởng thành</a>
+  
+
+        </li>
+      
     
   </ul>
 
@@ -217,6 +236,12 @@ https://github.com/alex-shpak/hugo-book
   <li>
     <a href="/vn/posts/"  >
         Blog
+      </a>
+  </li>
+  
+  <li>
+    <a href="https://github.com/dduongtrandai"  target="_blank" rel="noopener">
+        Github
       </a>
   </li>
   
@@ -269,22 +294,22 @@ https://github.com/alex-shpak/hugo-book
       <ul>
       
         <li class="flex justify-between">
-          <a href="/vn/categories/signal-processing/">Signal Processing</a>
+          <a href="/vn/categories/Signal-Processing/">Signal Processing</a>
           <span>2</span>
         </li>
       
         <li class="flex justify-between">
-          <a href="/vn/categories/h%E1%BB%8Dc-m%C3%A1y/">Học Máy</a>
+          <a href="/vn/categories/H%E1%BB%8Dc-m%C3%A1y/">Học Máy</a>
           <span>1</span>
         </li>
       
         <li class="flex justify-between">
-          <a href="/vn/categories/eeg/">EEG</a>
+          <a href="/vn/categories/EEG/">EEG</a>
           <span>1</span>
         </li>
       
         <li class="flex justify-between">
-          <a href="/vn/categories/x%C3%A1c-su%E1%BA%A5t-th%E1%BB%91ng-k%C3%AA/">Xác Suất Thống Kê</a>
+          <a href="/vn/categories/X%C3%A1c-su%E1%BA%A5t-th%E1%BB%91ng-k%C3%AA/">Xác Suất Thống Kê</a>
           <span>2</span>
         </li>
       
@@ -315,7 +340,7 @@ https://github.com/alex-shpak/hugo-book
   
   <article class="markdown book-post">
     <h2>
-      <a href="/vn/posts/stationary-vs-non-stationary/">Stationary vs Non-stationary</a>
+      <a href="/vn/posts/Stationary-vs-Non-stationary/">Stationary vs Non-stationary</a>
     </h2>
     
   <h5>July 26, 2024</h5>
@@ -325,7 +350,7 @@ https://github.com/alex-shpak/hugo-book
   
   <div>
     
-      <a href="/vn/categories/signal-processing/">Signal Processing</a>
+      <a href="/vn/categories/Signal-Processing/">Signal Processing</a>
   </div>
   
 
@@ -336,14 +361,14 @@ https://github.com/alex-shpak/hugo-book
 
     <p>Trong xử lý tín hiệu, khái niệm stationary (ổn định) và non-stationary (không ổn định) được sử dụng để mô tả tính chất của tín hiệu theo thời gian.
 Tín hiệu ổn định (Stationary Signal)#Tín hiệu được gọi là ổn định khi các đặc tính thống kê của nó không thay đổi theo thời gian. Các đặc tính thống kê bao gồm trung bình, phương sai và các hàm tương quan.
-        <a href="/vn/posts/stationary-vs-non-stationary/">...</a>
+        <a href="/vn/posts/Stationary-vs-Non-stationary/">...</a>
       
     </p>
   </article>
   
   <article class="markdown book-post">
     <h2>
-      <a href="/vn/posts/autocorrelation/">Tự Tương Quan</a>
+      <a href="/vn/posts/Autocorrelation/">Tự Tương Quan</a>
     </h2>
     
   <h5>July 26, 2024</h5>
@@ -353,7 +378,7 @@ Tín hiệu ổn định (Stationary Signal)#Tín hiệu được gọi là �
   
   <div>
     
-      <a href="/vn/categories/signal-processing/">Signal Processing</a>
+      <a href="/vn/categories/Signal-Processing/">Signal Processing</a>
   </div>
   
 
@@ -363,8 +388,8 @@ Tín hiệu ổn định (Stationary Signal)#Tín hiệu được gọi là �
 
 
     <p>Autocorrelation là một khái niệm trong thống kê và xử lý tín hiệu dùng để đo lường mức độ tương quan của một tín hiệu với chính nó tại các khoảng thời gian trễ khác nhau. Nói cách khác, autocorrelation xác định mức độ tương tự của tín hiệu tại một thời điểm so với các thời điểm trước đó.
-Công thức#Autocorrelation của một tín hiệu ( x(t) ) tại một khoảng thời gian trễ ( \tau ) được định nghĩa như sau:
-        <a href="/vn/posts/autocorrelation/">...</a>
+Công thức#Autocorrelation của một tín hiệu \( x(t) \) tại một khoảng thời gian trễ \( \tau \) được định nghĩa như sau:
+        <a href="/vn/posts/Autocorrelation/">...</a>
       
     </p>
   </article>
@@ -381,7 +406,7 @@ Công thức#Autocorrelation của một tín hiệu ( x(t) ) tại một kho�
   
   <div>
     
-      <a href="/vn/categories/h%E1%BB%8Dc-m%C3%A1y/">Học Máy</a>
+      <a href="/vn/categories/H%E1%BB%8Dc-m%C3%A1y/">Học Máy</a>
   </div>
   
 
@@ -396,7 +421,7 @@ Công thức#Autocorrelation của một tín hiệu ( x(t) ) tại một kho�
   
   <article class="markdown book-post">
     <h2>
-      <a href="/vn/posts/motor-imagery/">Motor Imagery</a>
+      <a href="/vn/posts/Motor-Imagery/">Motor Imagery</a>
     </h2>
     
   <h5>July 24, 2024</h5>
@@ -406,7 +431,7 @@ Công thức#Autocorrelation của một tín hiệu ( x(t) ) tại một kho�
   
   <div>
     
-      <a href="/vn/categories/eeg/">EEG</a>
+      <a href="/vn/categories/EEG/">EEG</a>
   </div>
   
 
@@ -417,14 +442,14 @@ Công thức#Autocorrelation của một tín hiệu ( x(t) ) tại một kho�
 
     <p>Motor Imagery là gì ?#Motor Imagery (Hình dung vận động) là việc suy nghĩ các lệnh vận động cụ thể, chẳng hạn như cử động tay trái, tay phải, hoặc chân, có thể thay đổi hoạt động của các tế bào thần kinh trong các vùng cảm giác vận động chính. 1.
 Cơ sở sinh lý thần kinh của hình dung vận động#&ldquo;Motor Imagery and Direct Brain–Computer Communication.
-        <a href="/vn/posts/motor-imagery/">...</a>
+        <a href="/vn/posts/Motor-Imagery/">...</a>
       
     </p>
   </article>
   
   <article class="markdown book-post">
     <h2>
-      <a href="/vn/posts/gaussian/">Phân Tích Thành Phần Độc Lập</a>
+      <a href="/vn/posts/Gaussian/">Phân Tích Thành Phần Độc Lập</a>
     </h2>
     
   <h5>July 24, 2024</h5>
@@ -434,7 +459,7 @@ Cơ sở sinh lý thần kinh của hình dung vận động#&ldquo;Motor Imag
   
   <div>
     
-      <a href="/vn/categories/x%C3%A1c-su%E1%BA%A5t-th%E1%BB%91ng-k%C3%AA/">Xác Suất Thống Kê</a>
+      <a href="/vn/categories/X%C3%A1c-su%E1%BA%A5t-th%E1%BB%91ng-k%C3%AA/">Xác Suất Thống Kê</a>
   </div>
   
 
@@ -449,7 +474,7 @@ Cơ sở sinh lý thần kinh của hình dung vận động#&ldquo;Motor Imag
   
   <article class="markdown book-post">
     <h2>
-      <a href="/vn/posts/ica/">Phân Tích Thành Phần Độc Lập</a>
+      <a href="/vn/posts/ICA/">Phân Tích Thành Phần Độc Lập</a>
     </h2>
     
   <h5>July 23, 2024</h5>
@@ -459,7 +484,7 @@ Cơ sở sinh lý thần kinh của hình dung vận động#&ldquo;Motor Imag
   
   <div>
     
-      <a href="/vn/categories/x%C3%A1c-su%E1%BA%A5t-th%E1%BB%91ng-k%C3%AA/">Xác Suất Thống Kê</a>
+      <a href="/vn/categories/X%C3%A1c-su%E1%BA%A5t-th%E1%BB%91ng-k%C3%AA/">Xác Suất Thống Kê</a>
   </div>
   
 
@@ -469,14 +494,14 @@ Cơ sở sinh lý thần kinh của hình dung vận động#&ldquo;Motor Imag
 
 
     <p>Khái niệm#Phân tích thành phần độc lập (ICA) là một kỹ thuật thống kê và tính toán được sử dụng trong học máy để tách tín hiệu đa biến thành các thành phần không phải Gaussian độc lập của nó. Mục tiêu của ICA là tìm ra một phép biến đổi tuyến tính của dữ liệu sao cho dữ liệu được chuyển đổi càng gần độc lập về mặt thống kê càng tốt.
-        <a href="/vn/posts/ica/">...</a>
+        <a href="/vn/posts/ICA/">...</a>
       
     </p>
   </article>
   
   <article class="markdown book-post">
     <h2>
-      <a href="/vn/posts/concept/">Concept</a>
+      <a href="/vn/posts/Concept/">Concept</a>
     </h2>
     
 
@@ -495,7 +520,7 @@ dd
   
   <article class="markdown book-post">
     <h2>
-      <a href="/vn/posts/eeg/">Eeg</a>
+      <a href="/vn/posts/EEG/">Eeg</a>
     </h2>
     
 
@@ -508,7 +533,7 @@ dd
 
 
     <p>ĐO LƯỜNG EEG HOẠT ĐỘNG TỔNG HỢP#Các tế bào thần kinh giao tiếp thông qua sự kết hợp của các chất dẫn truyền thần kinh hóa học và độ dốc điện, đồng thời điện não đồ, hay EEG, phát hiện các độ dốc điện đó để cung cấp cái nhìn sâu sắc về hoạt động của não. Tuy nhiên, hãy nhận ra rằng hoạt động điện của bất kỳ tế bào thần kinh nào cũng quá nhỏ để có thể được phát hiện bằng điện não đồ da đầu, và do đó những gì chúng ta thấy trên điện não đồ thực sự là sự tổng hợp hoạt động của nhiều tế bào thần kinh; trên thực tế, chúng tôi cần ít nhất 6 cm vuông hoạt động đồng bộ của vỏ não để có thể phát hiện mọi thứ trên điện não đồ da đầu.
-        <a href="/vn/posts/eeg/">...</a>
+        <a href="/vn/posts/EEG/">...</a>
       
     </p>
   </article>
@@ -522,6 +547,12 @@ dd
         
   <div class="flex flex-wrap justify-between">
 
+
+  <div><a class="flex align-center" href="https://github.com/dduongtrandai/dduongtrandai.github.io/commit/a90ccdf779a2a03a40a4e0d331fd204883220f01" title='Last modified by dduongtrandai | July 26, 2024' target="_blank" rel="noopener">
+      <img src="/svg/calendar.svg" class="book-icon" alt="" />
+      <span>July 26, 2024</span>
+    </a>
+  </div>
 
 
 
@@ -557,22 +588,22 @@ dd
       <ul>
       
         <li class="flex justify-between">
-          <a href="/vn/categories/signal-processing/">Signal Processing</a>
+          <a href="/vn/categories/Signal-Processing/">Signal Processing</a>
           <span>2</span>
         </li>
       
         <li class="flex justify-between">
-          <a href="/vn/categories/h%E1%BB%8Dc-m%C3%A1y/">Học Máy</a>
+          <a href="/vn/categories/H%E1%BB%8Dc-m%C3%A1y/">Học Máy</a>
           <span>1</span>
         </li>
       
         <li class="flex justify-between">
-          <a href="/vn/categories/eeg/">EEG</a>
+          <a href="/vn/categories/EEG/">EEG</a>
           <span>1</span>
         </li>
       
         <li class="flex justify-between">
-          <a href="/vn/categories/x%C3%A1c-su%E1%BA%A5t-th%E1%BB%91ng-k%C3%AA/">Xác Suất Thống Kê</a>
+          <a href="/vn/categories/X%C3%A1c-su%E1%BA%A5t-th%E1%BB%91ng-k%C3%AA/">Xác Suất Thống Kê</a>
           <span>2</span>
         </li>
       
