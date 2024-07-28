@@ -3,8 +3,54 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/docs/ai/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vn"
+                href="http://localhost:1313/vn/docs/ai/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/docs/ai/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/docs/eeg/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vn"
+                href="http://localhost:1313/vn/docs/eeg/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/docs/eeg/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/docs/eeg/basics/the-normal-adult-eeg/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/ai/deep-learning/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vn"
+                href="http://localhost:1313/vn/docs/ai/deep-learning/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/docs/ai/deep-learning/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/docs/eeg/basics/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vn"
+                href="http://localhost:1313/vn/docs/eeg/basics/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/docs/eeg/basics/"
+                />
   </url><url>
     <loc>http://localhost:1313/posts/autocorrelation/</loc>
     <lastmod>2024-07-26T00:00:00+00:00</lastmod>
@@ -188,7 +234,29 @@
                 href="http://localhost:1313/posts/ica/"
                 />
   </url><url>
+    <loc>http://localhost:1313/docs/ai/deep-learning/autoendcoders/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vn"
+                href="http://localhost:1313/vn/docs/ai/deep-learning/autoendcoders/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/docs/ai/deep-learning/autoendcoders/"
+                />
+  </url><url>
     <loc>http://localhost:1313/docs/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vn"
+                href="http://localhost:1313/vn/docs/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/docs/"
+                />
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
     <xhtml:link

@@ -2,6 +2,54 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/vn/docs/ai/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/docs/ai/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vn"
+                href="http://localhost:1313/vn/docs/ai/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/vn/docs/eeg/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/docs/eeg/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vn"
+                href="http://localhost:1313/vn/docs/eeg/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/vn/docs/ai/deep-learning/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/docs/ai/deep-learning/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vn"
+                href="http://localhost:1313/vn/docs/ai/deep-learning/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/vn/docs/eeg/basics/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/docs/eeg/basics/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vn"
+                href="http://localhost:1313/vn/docs/eeg/basics/"
+                />
+  </url><url>
     <loc>http://localhost:1313/vn/posts/</loc>
     <lastmod>2024-07-26T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -171,6 +219,18 @@
                 href="http://localhost:1313/vn/posts/ica/"
                 />
   </url><url>
+    <loc>http://localhost:1313/vn/docs/ai/deep-learning/autoendcoders/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/docs/ai/deep-learning/autoendcoders/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vn"
+                href="http://localhost:1313/vn/docs/ai/deep-learning/autoendcoders/"
+                />
+  </url><url>
     <loc>http://localhost:1313/vn/posts/concept/</loc>
   </url><url>
     <loc>http://localhost:1313/vn/posts/eeg/</loc>
@@ -183,6 +243,18 @@
                 rel="alternate"
                 hreflang="vn"
                 href="http://localhost:1313/vn/posts/eeg/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/vn/docs/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/docs/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vn"
+                href="http://localhost:1313/vn/docs/"
                 />
   </url><url>
     <loc>http://localhost:1313/vn/tags/</loc>

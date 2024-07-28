@@ -9,6 +9,13 @@
     <lastBuildDate>Fri, 26 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>The normal adult EEG</title>
+      <link>http://localhost:1313/docs/eeg/basics/the-normal-adult-eeg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/eeg/basics/the-normal-adult-eeg/</guid>
+      <description>&#xD;The normal adult EEG&#xD;#&#xD;Understanding the components of the typical EEG is essential in order to cultivate proficiency in analyzing the atypical findings. Within the subsequent discourse, the frequency ranges and specific wave patterns present in the standard adult EEG will be delineated for both wakefulness and sleep stages&#xA;ALPHA ACTIVITY&#xD;#&#xD;</description>
+    </item>
+    <item>
       <title>Autocorrelation</title>
       <link>http://localhost:1313/posts/autocorrelation/</link>
       <pubDate>Fri, 26 Jul 2024 00:00:00 +0000</pubDate>
@@ -56,13 +63,6 @@
       <pubDate>Tue, 23 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/ica/</guid>
       <description>Khái niệm&#xD;#&#xD;Phân tích thành phần độc lập (ICA) là một kỹ thuật thống kê và tính toán được sử dụng trong học máy để tách tín hiệu đa biến thành các thành phần không phải Gaussian độc lập của nó. Mục tiêu của ICA là tìm ra một phép biến đổi tuyến tính của dữ liệu sao cho dữ liệu được chuyển đổi càng gần độc lập về mặt thống kê càng tốt.</description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/docs/ai/deep-learning/autoendcoders/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/ai/deep-learning/autoendcoders/</guid>
-      <description>Tetttttt</description>
     </item>
   </channel>
 </rss>
