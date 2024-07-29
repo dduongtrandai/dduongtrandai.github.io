@@ -14,5 +14,3 @@ Chào mừng bạn đến với blog cá nhân của tôi! Trong blog này, tôi
 Hy vọng bạn sẽ thấy blog của tôi hữu ích và thú vị! Nếu bạn có bất kỳ câu hỏi hoặc muốn đóng góp, hãy để lại bình luận. 😊
 
 ![alt](/images/intro.jpg)
-
-Test
