@@ -1,6 +1,6 @@
 ---
 title: Điện não đồ thông thường của người trưởng thành
-weight: 1
+weight: 2
 ---
 
 # Điện não đồ thông thường của người trưởng thành
