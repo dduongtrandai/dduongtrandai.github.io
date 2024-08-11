@@ -48,7 +48,7 @@ target = 'static/images'
 
 [services]
   [services.googleAnalytics]
-    ID = 'G-FLBBHZ4JE7'
+    ID = 'G-RXWV277WWQ'
 
 [params]
   # (Optional, default none) Set the path to a logo for the book.
