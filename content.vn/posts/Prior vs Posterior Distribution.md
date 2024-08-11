@@ -1,3 +1,14 @@
+---
+author: "duongtd"
+date: 2024-08-11
+title: Phân phối Tiên Nghiệm và Hậu Nghiệm
+tags: [
+    ""
+]
+categories: [
+    ""
+]
+---
 ### **Phân phối Tiên Nghiệm và Hậu Nghiệm**
 
 Trong bối cảnh thống kê Bayes và các mô hình học sâu như Variational Autoencoder (VAE) hoặc iVAE, hai khái niệm **phân phối tiên nghiệm (prior distribution)** và **phân phối hậu nghiệm (posterior distribution)** thường được sử dụng để mô tả sự không chắc chắn và cách thông tin mới được tích hợp vào mô hình. Dưới đây là giải thích chi tiết về hai khái niệm này:
