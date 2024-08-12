@@ -10,7 +10,7 @@ categories: [
 ]
 ---
 
-**Identifiable VAE (iVAE)** is a variant of the Variational Autoencoder (VAE) model with the primary goal of making this model "identifiable." This means that iVAE ensures that the latent variables \(z\) it learns are unique (up to permutation), unaffected by unwanted transformations such as permutation or nonlinear transformation. Below is a detailed explanation of the structure and functioning of iVAE.
+**Identifiable VAE (iVAE)** [[1]](#ref1) is a variant of the Variational Autoencoder (VAE) model with the primary goal of making this model "identifiable." This means that iVAE ensures that the latent variables \(z\) it learns are unique (up to permutation), unaffected by unwanted transformations such as permutation or nonlinear transformation. Below is a detailed explanation of the structure and functioning of iVAE.
 
 ## **1. Basics of Identifiability in Machine Learning**
 
@@ -65,3 +65,11 @@ iVAE can be applied in many fields where identifying latent sources is crucial:
 ## **Conclusion**
 
 **Identifiable VAE (iVAE)** is a powerful variant of VAE that addresses the identifiability issue in latent space by conditioning on external variables. This makes iVAE a valuable tool in applications where accurately identifying latent sources or factors in the data is important, and it enhances the interpretability and reliability of machine learning models.
+
+
+## Tài Liệu Tham Khảo
+
+<a id="ref1"></a>[1] I. Khemakhem, D. P. Kingma, R. P. Monti, and A. Hyvärinen, [“Variational Autoencoders and Nonlinear ICA: A Unifying Framework,”](https://arxiv.org/abs/1907.04809) Dec. 21, 2020, arXiv: arXiv:1907.04809. doi: 10.48550/arXiv.1907.04809.
+
+References
+
