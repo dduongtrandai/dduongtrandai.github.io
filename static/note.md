@@ -8,3 +8,5 @@ Giữ nguyên các đặc trưng không gian: Nếu có thể, nên giữ lại 
 b. Sử dụng embedding làm điều kiện đầu vào (Conditional Input)
 Điều kiện hóa latent space: Một giải pháp khác là sử dụng embedding từ Neuro-GPT như một điều kiện bổ sung (conditional input) cho iVAE thay vì là đầu vào chính. Điều này có nghĩa là iVAE vẫn học các đặc trưng từ dữ liệu thô, nhưng embedding được sử dụng để điều kiện hóa quá trình học, giúp mô hình học tốt hơn các phân phối tiềm ẩn.
 Kết hợp hai nguồn thông tin: Bằng cách này, iVAE có thể tận dụng được thông tin từ embedding mà không bị mất đi khả năng học các đặc trưng không gian cần thiết từ dữ liệu gốc.
+
+BIG LEARNING VARIATIONAL AUTO-ENCODERS 91b1de99-dbae-4af6-a77a-42aab207fa23

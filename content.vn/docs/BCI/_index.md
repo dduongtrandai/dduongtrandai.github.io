@@ -1,7 +1,7 @@
 ---
 weight: 2
 bookFlatSection: true
-title: "EEG"
+title: "Bain Computer Interface"
 ---
 
 # Introduction

@@ -1,5 +1,6 @@
 ---
+weight: 1
 bookCollapseSection: true
-weight: 2
+title: "Basic Knowkedge"
 ---
 

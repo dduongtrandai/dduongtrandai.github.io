@@ -1,7 +1,7 @@
 ---
 weight: 3
 bookFlatSection: true
-title: "Mathematics"
+title: "Toán học"
 ---
 
 ## Giới thiệu

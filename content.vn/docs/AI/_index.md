@@ -1,7 +1,7 @@
 ---
-weight: 1
+weight: 2
 bookFlatSection: true
-title: "Artificial Intelligence"
+title: "Trí Tuệ Nhân Tạo"
 ---
 
 ## Khám Phá Trí Tuệ Nhân Tạo (AI): Cách AI Đang Thay Đổi Thế Giới
