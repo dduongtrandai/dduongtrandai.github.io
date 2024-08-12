@@ -66,6 +66,8 @@ iVAE có thể được áp dụng trong nhiều lĩnh vực nơi mà việc nh�
 
 **Identifiable VAE (iVAE)** là một biến thể mạnh mẽ của VAE, giúp khắc phục vấn đề nhận dạng trong không gian tiềm ẩn bằng cách điều kiện hóa trên các biến điều kiện. Điều này làm cho iVAE trở thành một công cụ hữu ích trong các ứng dụng cần sự nhận dạng chính xác các nguồn tiềm ẩn hoặc nhân tố tiềm ẩn trong dữ liệu, và giúp tăng cường tính giải thích và độ tin cậy của các mô hình học máy.
 
-## Tài Liệu Tham Khảo
+**Identifiable VAE (iVAE)** [1](#ref1) là một biến thể mạnh mẽ của VAE, giúp khắc phục vấn đề nhận dạng trong không gian tiềm ẩn bằng cách điều kiện hóa trên các biến điều kiện.
+
+## **Tài Liệu Tham Khảo**
 
 <a id="ref1"></a>[1] I. Khemakhem, D. P. Kingma, R. P. Monti, and A. Hyvärinen, [“Variational Autoencoders and Nonlinear ICA: A Unifying Framework,”](https://arxiv.org/abs/1907.04809) Dec. 21, 2020, arXiv: arXiv:1907.04809. doi: 10.48550/arXiv.1907.04809.
