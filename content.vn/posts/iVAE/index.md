@@ -71,3 +71,37 @@ iVAE có thể được áp dụng trong nhiều lĩnh vực nơi mà việc nh�
 ## **Tài Liệu Tham Khảo**
 
 <a id="ref1"></a>[1] I. Khemakhem, D. P. Kingma, R. P. Monti, and A. Hyvärinen, [“Variational Autoencoders and Nonlinear ICA: A Unifying Framework,”](https://arxiv.org/abs/1907.04809) Dec. 21, 2020, arXiv: arXiv:1907.04809. doi: 10.48550/arXiv.1907.04809.
+
+## **Phụ Lục**
+Trong bài báo "Variational Autoencoders and Nonlinear ICA: A Unifying Framework", các tác giả đã chứng minh rằng mô hình iVAE có thể nhận dạng được (identifiable) khi có thêm biến phụ trợ \( u \). Dưới đây là chi tiết về chứng minh này:
+
+### 1. **Giả định ban đầu**:
+   - Ta có một mô hình biến ẩn sâu (deep latent-variable model) với biến quan sát \( x \), biến tiềm ẩn \( z \), và một biến phụ trợ \( u \).
+   - Mô hình có dạng: \( p_{\theta}(x, z | u) = p_f(x | z) p_{T, \lambda}(z | u) \)
+     - \( p_f(x | z) \) là phân phối điều kiện của \( x \) dựa trên \( z \).
+     - \( p_{T, \lambda}(z | u) \) là phân phối tiên nghiệm của \( z \) dựa trên biến phụ trợ \( u \), được giả định là một phân phối thuộc họ hàm mũ có điều kiện.
+
+### 2. **Bước đầu tiên** - Biến đổi phân phối dữ liệu quan sát thành phân phối không nhiễu:
+   - Từ giả thiết \( p_{\theta}(x, z | u) = p_{\theta'}(x, z | u) \) với mọi \( x \) và \( u \), các tác giả sử dụng phép biến đổi Fourier để loại bỏ ảnh hưởng của nhiễu \( \epsilon \), từ đó chuyển bài toán về trường hợp không có nhiễu:
+     \[
+     \log p_{T, \lambda}(f^{-1}(x) | u) = \log p_{T', \lambda'}(f'^{-1}(x) | u) + \text{c}
+     \]
+   - Điều này giúp rút gọn bài toán về việc so sánh trực tiếp các thành phần không nhiễu.
+
+### 3. **Bước thứ hai** - Loại bỏ các biến phụ trợ:
+   - Sau khi có được phương trình trên, họ tiếp tục loại bỏ biến phụ trợ \( u \) bằng cách sử dụng một số điểm \( u_0, u_1, \dots, u_{nk} \) sao cho ma trận \( L \) liên quan đến các tham số \( \lambda(u) \) là khả nghịch. Điều này dẫn đến:
+     \[
+     T(f^{-1}(x)) = A T'(f'^{-1}(x)) + c
+     \]
+   - Tại đây, \( A \) là một ma trận khả nghịch và \( c \) là một vector, điều này cho thấy sự phụ thuộc tuyến tính giữa các thành phần của mô hình.
+
+### 4. **Bước thứ ba** - Chứng minh tính khả nghịch của ma trận \( A \):
+   - Trong trường hợp \( k = 1 \), ma trận \( A \) khả nghịch do \( A \) là một ma trận vuông.
+   - Khi \( k > 1 \), bằng việc sử dụng các ma trận Jacobian và giả thiết rằng các thống kê đủ \( T_i(z) \) tuyến tính độc lập trên các tập hợp \( X \) có độ đo dương, các tác giả chứng minh được rằng ma trận \( A \) là khả nghịch.
+
+### 5. **Kết luận**:
+   - Cuối cùng, các tác giả chứng minh rằng với các giả thiết đã nêu, mô hình iVAE là nhận dạng được. Điều này có nghĩa là với một mô hình iVAE, nếu các tham số mô hình được học từ dữ liệu, các tham số đó sẽ tương ứng duy nhất với các biến tiềm ẩn \( z \), giúp đảm bảo rằng quá trình học không rơi vào tình trạng không xác định.
+
+Chứng minh này là một trong những kết quả quan trọng trong bài báo, cho thấy rằng việc thêm biến phụ trợ \( u \) vào mô hình có thể giải quyết được vấn đề không nhận dạng được trong các mô hình biến ẩn sâu như VAE truyền thống.
+
+
