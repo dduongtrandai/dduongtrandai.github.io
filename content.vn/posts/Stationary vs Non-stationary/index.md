@@ -6,7 +6,7 @@ tags: [
     ""
 ]
 categories: [
-    "Signal Processing"
+    "Xử Lý Tín Hiệu"
 ]
 ---
 

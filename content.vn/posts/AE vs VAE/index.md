@@ -3,10 +3,10 @@ author: "duongtd"
 date: 2024-08-11
 title: Autoencoder vs Variational Autoencoder
 tags: [
-    ""
+    "VAE"
 ]
 categories: [
-    ""
+    "Học Sâu"
 ]
 ---
 Autoencoder (AE) và Variational Autoencoder (VAE) là hai loại mô hình học sâu được sử dụng rộng rãi trong các nhiệm vụ như giảm chiều dữ liệu, phát hiện bất thường, và tạo sinh dữ liệu mới. Mặc dù cả hai đều được thiết kế để học một biểu diễn tiềm ẩn (latent representation) của dữ liệu đầu vào, nhưng chúng khác nhau ở một số điểm quan trọng.

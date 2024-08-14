@@ -6,7 +6,7 @@ tags: [
     ""
 ]
 categories: [
-    "Signal Processing"
+    "Xử Lý Tín Hiệu"
 ]
 ---
 **Autocorrelation** là một khái niệm trong thống kê và xử lý tín hiệu dùng để đo lường mức độ tương quan của một tín hiệu với chính nó tại các khoảng thời gian trễ khác nhau. Nói cách khác, autocorrelation xác định mức độ tương tự của tín hiệu tại một thời điểm so với các thời điểm trước đó.

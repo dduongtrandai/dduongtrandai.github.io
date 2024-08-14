@@ -1,4 +1,4 @@
 ---
 bookCollapseSection: true
-title: "Xác suất thống kê"
+title: "Xác Suất Thống Kê"
 ---

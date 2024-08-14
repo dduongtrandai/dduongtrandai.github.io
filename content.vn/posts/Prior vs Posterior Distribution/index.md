@@ -6,7 +6,7 @@ tags: [
     ""
 ]
 categories: [
-    ""
+    "Xác Suất Thống Kê"
 ]
 ---
 ### **Phân phối Tiên Nghiệm và Hậu Nghiệm**

@@ -2,7 +2,7 @@
 title: Họ Phân Phối Mũ
 ---
 
-### Họ Phân Phối Mũ (Exponential Family)
+# Họ Phân Phối Mũ (Exponential Family)
 
 Họ phân phối mũ là một lớp rộng của các phân phối xác suất có cấu trúc toán học cụ thể, cho phép chúng ta mô hình hóa nhiều dạng dữ liệu khác nhau một cách tổng quát. Một phân phối thuộc họ phân phối mũ có thể được viết dưới dạng:
 
@@ -19,14 +19,14 @@ Trong đó:
 - **\( T(x) \)**: Thống kê đủ (sufficient statistic), là một hàm của \( x \).
 - **\( A(\theta) \)**: Hàm log-normalizer hoặc hằng số chuẩn hóa, đảm bảo rằng phân phối xác suất tích phân trên không gian \( x \) là 1.
 
-### Cấu trúc của Phân phối mũ
+## Cấu trúc của Phân phối mũ
 
 - **Thước đo cơ sở \( h(x) \)**: Đây là một hàm của \( x \) không phụ thuộc vào \( \theta \).
 - **Tham số tự nhiên \( \eta(\theta) \)**: Thông thường, đây là một hàm tuyến tính của các tham số mô hình \( \theta \).
 - **Thống kê đủ \( T(x) \)**: Đây là một hàm của dữ liệu và thường là các đặc trưng quan trọng của dữ liệu mà chúng ta muốn mô hình hóa.
 - **Hàm log-normalizer \( A(\theta) \)**: Hàm này đảm bảo rằng \( p(x|\theta) \) là một phân phối xác suất hợp lệ, tức là tích phân của nó trên toàn bộ không gian là 1.
 
-### Ví dụ về Các Phân phối Thuộc Họ Phân Phối Mũ
+## Ví dụ về Các Phân phối Thuộc Họ Phân Phối Mũ
 
 1. **Phân phối Bernoulli**
 

@@ -6,7 +6,7 @@ tags: [
     ""
 ]
 categories: [
-    "Xác suất thống kê"
+    "Xác Suất Thống Kê"
 ]
 ---
 
