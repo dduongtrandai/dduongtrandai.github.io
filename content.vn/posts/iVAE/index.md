@@ -104,4 +104,50 @@ Trong bài báo "Variational Autoencoders and Nonlinear ICA: A Unifying Framewor
 
 Chứng minh này là một trong những kết quả quan trọng trong bài báo, cho thấy rằng việc thêm biến phụ trợ \( u \) vào mô hình có thể giải quyết được vấn đề không nhận dạng được trong các mô hình biến ẩn sâu như VAE truyền thống.
 
+Dưới đây là quá trình chứng minh chi tiết tính nhận dạng của mô hình iVAE dựa trên biến phụ trợ \( u \), được trình bày trong phần B.2.2 của bài báo:
+
+### **B.2.2 Chứng minh tính nhận dạng của iVAE**
+
+#### **Bước 1: Giới thiệu khái niệm về thể tích của ma trận**
+- Tác giả sử dụng khái niệm thể tích ma trận, ký hiệu là vol A, là tích của các giá trị riêng (singular values) của ma trận A.
+- Khi ma trận A có hạng đầy đủ, vol A bằng căn bậc hai của định thức \( \text{det}(A^T A) \).
+- Khi ma trận A là ma trận vuông và khả nghịch, vol A bằng giá trị tuyệt đối của định thức \( | \text{det}(A) | \).
+- Thể tích ma trận này được sử dụng trong công thức biến đổi (change of variable formula), đặc biệt hữu ích khi Jacobian là một ma trận hình chữ nhật (tức là số hàng ít hơn số cột, \( n < d \)).
+
+#### **Bước 2: Thiết lập phương trình cho hai bộ tham số**
+- Giả sử có hai bộ tham số \( (f, T, \lambda) \) và \( (\tilde{f}, \tilde{T}, \tilde{\lambda}) \) sao cho \( p_{f,T,\lambda}(x|u) = p_{\tilde{f}, \tilde{T}, \tilde{\lambda}}(x|u) \) với mọi cặp \( (x, u) \). Điều này có nghĩa là phân phối xác suất điều kiện cho cả hai bộ tham số là tương đương.
+- Từ đó, ta có phương trình sau đây:
+
+\[
+\log \text{vol} J_{f^{-1}}(x) + \sum_{i=1}^{n} \left( \log Q_i(f^{-1}_i(x)) - \log Z_i(u) + \sum_{j=1}^{k} T_{i,j}(f^{-1}_i(x)) \lambda_{i,j}(u) \right) 
+\]
+
+bằng với:
+
+\[
+\log \text{vol} J_{\tilde{f}^{-1}}(x) + \sum_{i=1}^{n} \left( \log \tilde{Q}_i(\tilde{f}^{-1}_i(x)) - \log \tilde{Z}_i(u) + \sum_{j=1}^{k} \tilde{T}_{i,j}(\tilde{f}^{-1}_i(x)) \tilde{\lambda}_{i,j}(u) \right)
+\]
+
+#### **Bước 3: Đạo hàm theo biến phụ trợ \( u \)**
+- Lấy đạo hàm của cả hai vế phương trình theo \( u \) để loại bỏ các thành phần chỉ phụ thuộc vào \( x \), giả sử \( \tilde{\lambda} \) cũng khả vi. Khi đó, ta được phương trình:
+
+\[
+J_\lambda(u)T T(f^{-1}(x)) - \sum_{i} \nabla \log Z_i(u) = J_{\tilde{\lambda}}(u)T \tilde{T}(\tilde{f}^{-1}(x)) - \sum_{i} \nabla \log \tilde{Z}_i(u)
+\]
+
+- Sau đó, phương trình này được đánh giá tại một điểm cụ thể \( u_0 \) (được giả định trong điều kiện iv) và nhân với ma trận \( J_\lambda(u_0)^{-T} \) (khả nghịch do giả thiết).
+
+#### **Bước 4: Kết luận từ phương trình**
+- Sau khi thực hiện các phép toán trên, ta có được phương trình dạng:
+
+\[
+T(f^{-1}(x)) = A \tilde{T}(\tilde{f}^{-1}(x)) + c
+\]
+
+trong đó \( A \) là một ma trận và \( c \) là một hằng số liên quan đến \( Z_i(u_0) \) và \( \tilde{Z}_i(u_0) \).
+
+- Phần còn lại của chứng minh tiếp tục từ điểm này, sử dụng các lập luận để chỉ ra rằng \( J_{\tilde{\lambda}}(u_0) \) là khả nghịch, từ đó đảm bảo rằng các tham số \( (f, T, \lambda) \) và \( (\tilde{f}, \tilde{T}, \tilde{\lambda}) \) phải tương đương, tức là mô hình có khả năng nhận dạng.
+
+### **Kết luận**
+Phương pháp đạo hàm theo \( u \) trong phần B.2.2 của bài báo đóng vai trò then chốt trong chứng minh tính nhận dạng của iVAE. Biến phụ trợ \( u \) được sử dụng để loại bỏ các thành phần không liên quan, từ đó tập trung vào những phần quan trọng giúp đảm bảo rằng các tham số của mô hình có thể được xác định duy nhất.
 

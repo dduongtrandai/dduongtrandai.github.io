@@ -1,7 +1,7 @@
 baseURL = 'https://dduongtrandai.github.io/' 
 languageCode = 'en-us'
 title = 'Tran Dai Duong'
-theme = 'hugo-book-duongtd'
+theme = 'hugo-book'
 
 # Book configuration
 disablePathToLower = true
