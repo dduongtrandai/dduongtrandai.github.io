@@ -128,7 +128,7 @@ bằng với:
 \log \text{vol} J_{\tilde{f}^{-1}}(x) + \sum_{i=1}^{n} \left( \log \tilde{Q}_i(\tilde{f}^{-1}_i(x)) - \log \tilde{Z}_i(u) + \sum_{j=1}^{k} \tilde{T}_{i,j}(\tilde{f}^{-1}_i(x)) \tilde{\lambda}_{i,j}(u) \right)
 \]
 
-#### **Bước 3: Đạo hàm theo biến phụ trợ u**
+#### **Bước 3: Đạo hàm theo biến phụ trợ \( u \)**
 - Lấy đạo hàm của cả hai vế phương trình theo \( u \) để loại bỏ các thành phần chỉ phụ thuộc vào \( x \), giả sử \( \tilde{\lambda} \) cũng khả vi. Khi đó, ta được phương trình:
 
 \[
@@ -150,3 +150,4 @@ trong đó \( A \) là một ma trận và \( c \) là một hằng số liên q
 
 ### **Kết luận**
 Phương pháp đạo hàm theo \( u \) trong phần B.2.2 của bài báo đóng vai trò then chốt trong chứng minh tính nhận dạng của iVAE. Biến phụ trợ \( u \) được sử dụng để loại bỏ các thành phần không liên quan, từ đó tập trung vào những phần quan trọng giúp đảm bảo rằng các tham số của mô hình có thể được xác định duy nhất.
+

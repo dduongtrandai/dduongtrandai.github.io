@@ -1,7 +1,7 @@
 baseURL = 'https://dduongtrandai.github.io/' 
 languageCode = 'en-us'
 title = 'Tran Dai Duong'
-theme = 'hugo-book'
+theme = 'hugo-book-duongtd'
 
 # Book configuration
 disablePathToLower = true
@@ -11,16 +11,17 @@ enableGitInfo = true
 # There are different options to translate files
 # See https://gohugo.io/content-management/multilingual/#translation-by-filename
 # And https://gohugo.io/content-management/multilingual/#translation-by-content-directory
+defaultContentLanguage = 'vn'
 [languages]
 [languages.vn]
   languageName = 'Vietnamese'
   contentDir = 'content.vn'
-  weight = 1
+  weight = 0
 
 [languages.en]
   languageName = 'English'
   contentDir = 'content.en'
-  weight = 2
+  weight = 1
 
 [[module.mounts]]
 source = 'static'
