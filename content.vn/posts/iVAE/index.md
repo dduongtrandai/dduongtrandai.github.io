@@ -40,6 +40,38 @@ iVAE được xây dựng dựa trên cấu trúc của VAE truyền thống, nh
   - Để đảm bảo tính nhận dạng, iVAE điều kiện hóa không gian tiềm ẩn \(z\) trên các biến điều kiện \(u\).
   - Việc điều kiện hóa này đảm bảo rằng cùng một nguồn tiềm ẩn trong các tập dữ liệu khác nhau có thể được xác định một cách duy nhất, tức là tránh được các sự hoán vị không mong muốn giữa các biến tiềm ẩn.
 
+### **Phân Phối Tiên Nghiệm Có Điều Kiện (Conditional Prior Distribution)**
+
+Trong mô hình iVAE (Identifiable Variational Autoencoder), phân phối tiên nghiệm \( p(z|u) \) được mô hình hóa dựa trên họ phân phối mũ (exponential family). Công thức chi tiết để tính \( p(z|u) \) được trình bày như sau:
+
+\[
+p(z|u) = \prod_{i=1}^{n} \frac{Q_i(z_i)}{Z_i(u)} \exp\left( \sum_{j=1}^{k} T_{i,j}(z_i) \lambda_{i,j}(u) \right)
+\]
+
+**Trong đó:**
+
+1. **\( Q_i(z_i) \)**: 
+   - Đây là hàm cơ sở (base measure) của thành phần \( z_i \) trong biến tiềm ẩn \( z \). 
+   - Hàm này có thể là hằng số hoặc có thể phụ thuộc vào \( z_i \), tùy thuộc vào cách mô hình hóa.
+
+2. **\( Z_i(u) \)**:
+   - Đây là hằng số chuẩn hóa (normalizing constant) cho thành phần \( z_i \), đảm bảo rằng tổng xác suất trên tất cả các giá trị của \( z_i \) bằng 1. 
+   - \( Z_i(u) \) phụ thuộc vào biến phụ trợ \( u \), và nó được tính bằng cách tích phân hoặc tổng trên không gian của \( z_i \).
+
+3. **\( T_{i,j}(z_i) \)**:
+   - Đây là hàm thống kê đủ (sufficient statistic) cho \( z_i \). 
+   - Các hàm này mô tả các đặc trưng của \( z_i \) mà phân phối phụ thuộc vào.
+
+4. **\( \lambda_{i,j}(u) \)**:
+   - Đây là tham số tự nhiên (natural parameter) của phân phối, và nó phụ thuộc vào biến phụ trợ \( u \). 
+   - Tham số \( \lambda_{i,j}(u) \) xác định cách mà \( u \) điều kiện hóa phân phối của \( z_i \).
+
+**Ý nghĩa của công thức:**
+
+- **Điều kiện hóa theo \( u \)**: Phân phối \( p(z|u) \) cho phép mô hình iVAE điều kiện hóa các biến tiềm ẩn \( z \) theo biến phụ trợ \( u \), giúp phá vỡ tính đối xứng và đảm bảo rằng các biến tiềm ẩn \( z \) có thể nhận dạng được một cách duy nhất từ dữ liệu quan sát.
+
+- **Mô hình hóa phân phối \( p(z|u) \)**: Phân phối này là sự kết hợp của các thành phần \( Q_i(z_i) \), các hàm thống kê đủ \( T_{i,j}(z_i) \), và các tham số \( \lambda_{i,j}(u) \), từ đó mô tả cách mà các biến tiềm ẩn được sinh ra dựa trên thông tin từ \( u \).
+
 ### **Phân Phối Hậu Nghiệm Có Điều Kiện (Conditional Posterior Distribution)**
 
 - iVAE mở rộng phân phối hậu nghiệm bằng cách điều kiện hóa trên \(u\), thay vì chỉ đơn thuần là phân phối \(q(z|x)\) như trong VAE truyền thống.
@@ -150,3 +182,46 @@ trong đó \( A \) là một ma trận và \( c \) là một hằng số liên q
 
 ### **Kết luận**
 Phương pháp đạo hàm theo \( u \) trong phần B.2.2 của bài báo đóng vai trò then chốt trong chứng minh tính nhận dạng của iVAE. Biến phụ trợ \( u \) được sử dụng để loại bỏ các thành phần không liên quan, từ đó tập trung vào những phần quan trọng giúp đảm bảo rằng các tham số của mô hình có thể được xác định duy nhất.
+
+### Định lý 1 trong bài báo đề xuất mô hình iVAE
+
+#### **Nội dung Định lý 1:**
+
+Giả sử rằng dữ liệu quan sát được lấy mẫu từ một mô hình sinh theo các tham số \( (f, T, \lambda) \) như được định nghĩa trong các công thức (5)-(7) của bài báo. Định lý 1 thiết lập các điều kiện dưới đó các tham số \( (f, T, \lambda) \) có thể nhận dạng được từ dữ liệu quan sát, cụ thể như sau:
+
+**Giả định:**
+1. **Giả định (i):** Tập hợp các điểm \( \{x \in X | \varphi_\epsilon(x) = 0\} \) có độ đo bằng 0, trong đó \( \varphi_\epsilon \) là hàm đặc trưng của mật độ xác suất \( p_\epsilon \) được định nghĩa trong công thức (6).
+   - Ý nghĩa: Điều này đảm bảo rằng hàm mật độ xác suất không bị mất mát thông tin tại bất kỳ điểm nào trên không gian quan sát.
+
+2. **Giả định (ii):** Hàm trộn \( f \) trong công thức (6) là một ánh xạ injective, nghĩa là mỗi điểm trong không gian tiềm ẩn \( z \) sẽ ánh xạ tới một điểm duy nhất trong không gian quan sát \( x \).
+   - Ý nghĩa: Đây là điều kiện quan trọng để đảm bảo rằng không có hai giá trị \( z \) khác nhau nào cho cùng một giá trị \( x \), tức là có thể đảo ngược từ \( x \) về \( z \).
+
+3. **Giả định (iii):** Các hàm thống kê đủ \( T_{i,j} \) trong công thức (7) là khả vi gần như ở mọi nơi và các \( T_{i,j} \) là độc lập tuyến tính trên bất kỳ tập con nào của \( X \) có độ đo lớn hơn 0.
+   - Ý nghĩa: Điều kiện này đảm bảo rằng các hàm thống kê \( T_{i,j} \) là đủ linh hoạt để mô tả các đặc trưng của dữ liệu mà không bị phụ thuộc vào nhau.
+
+4. **Giả định (iv):** Tồn tại \( nk + 1 \) điểm phân biệt \( u_0, \dots, u_{nk} \) sao cho ma trận 
+   \[
+   L = (\lambda(u_1) - \lambda(u_0), \dots, \lambda(u_{nk}) - \lambda(u_0))
+   \]
+   có kích thước \( nk \times nk \) là khả nghịch.
+   - Ý nghĩa: Điều này đảm bảo rằng các giá trị của tham số \( \lambda \) khác biệt nhau đủ để xác định được các tham số trong mô hình.
+
+**Kết luận:**
+- Dưới các giả định trên, các tham số \( (f, T, \lambda) \) là \( \sim_A \)-nhận dạng được, tức là chúng có thể được xác định một cách duy nhất từ dữ liệu quan sát \( x \) thông qua biến phụ trợ \( u \).
+
+### **Định lý 1:**
+
+1. **Injectivity (tính injective) của \( f \):**
+   - Đây là điều kiện cần thiết để đảm bảo rằng không có sự mơ hồ khi ánh xạ từ không gian tiềm ẩn \( z \) sang không gian quan sát \( x \). Nếu \( f \) không phải là một hàm injective, thì có thể tồn tại nhiều giá trị \( z \) tương ứng với cùng một giá trị \( x \), dẫn đến việc không thể nhận dạng chính xác các tham số của mô hình.
+
+2. **Độc lập tuyến tính của các hàm thống kê đủ \( T_{i,j} \):**
+   - Điều kiện này giúp đảm bảo rằng các hàm thống kê \( T_{i,j} \) có thể mô tả đầy đủ các đặc trưng của dữ liệu quan sát mà không bị phụ thuộc lẫn nhau. Điều này là quan trọng để giữ cho các tham số \( T \) có thể nhận dạng được.
+
+3. **Khả nghịch của ma trận \( L \):**
+   - Ma trận \( L \) chứa sự khác biệt giữa các tham số \( \lambda \) tại các điểm khác nhau của biến phụ trợ \( u \). Khả nghịch của ma trận này đảm bảo rằng các tham số \( \lambda \) có đủ độ phân biệt để xác định các giá trị khác nhau của \( u \), từ đó đảm bảo rằng các tham số của mô hình có thể nhận dạng được.
+
+4. **Ý nghĩa của tính \( \sim_A \)-nhận dạng được:**
+   - \( \sim_A \) là một quan hệ tương đương mà trong đó các bộ tham số \( (f, T, \lambda) \) và \( (\tilde{f}, \tilde{T}, \tilde{\lambda}) \) được coi là tương đương nếu chúng liên quan đến nhau qua một biến đổi tuyến tính \( A \) và một số phi tuyến. Định lý 1 đảm bảo rằng nếu dữ liệu được tạo ra bởi một bộ tham số nhất định, thì bộ tham số đó có thể nhận dạng được từ dữ liệu, và nếu có một bộ tham số khác dẫn đến cùng một phân phối quan sát, thì hai bộ tham số này phải tương đương nhau theo nghĩa của quan hệ \( \sim_A \).
+
+### **Kết luận:**
+Định lý 1 thiết lập các điều kiện cụ thể dưới đó mô hình iVAE có thể nhận dạng được các tham số tiềm ẩn từ dữ liệu quan sát. Điều này là cơ sở lý thuyết quan trọng để đảm bảo rằng mô hình iVAE có thể học được các đặc trưng tiềm ẩn từ dữ liệu một cách chính xác và duy nhất.
