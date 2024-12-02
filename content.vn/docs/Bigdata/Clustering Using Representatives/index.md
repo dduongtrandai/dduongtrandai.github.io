@@ -1,3 +1,7 @@
+---
+title: "Clustering Using Representatives"
+---
+
 # CURE: Giải Pháp Phân Cụm Dữ Liệu Hiệu Quả cho Tập Dữ Liệu Lớn
 
 Trong thời đại của dữ liệu lớn, việc phân tích và tổ chức dữ liệu một cách hiệu quả trở nên quan trọng hơn bao giờ hết. Thuật toán Clustering Using Representatives (CURE) là một trong những giải pháp tiên tiến giúp giải quyết những thách thức này. Hãy cùng tìm hiểu chi tiết về cách thuật toán này hoạt động và những ưu điểm độc đáo của nó.
